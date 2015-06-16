@@ -1,0 +1,1042 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta property="og:type" content="website"/><meta name="author" content="喜歡在黃昏啃甘蔗 (tolarku)"><meta property="fb:app_id" content="177656797355" /><meta property="og:site_name" content="隨意窩 Xuite日誌" /><meta name="keywords" content="tolarku"><meta property="og:url" content="http://blog.xuite.net/tolarku/blog/43392927"/><meta property="og:title" content="台灣百大景點"/><meta property="og:image" content="http://blog.xuite.net/tolarku/blog/43392927/cover600.jpg"/><meta property="og:description" content="之前曾看過報導票選的台灣百大景點，但沒特別的感覺，在看了「Palapalabu」的遊記後，讓我強烈的想規劃一下，整個環島一圈，哪一些點是我很想去的呢？從 2006-2007 興盛起的單車環台，到現在四處飄散的機車環島，甚至一日武陵看櫻花行程，都會激起我想去走一圈的慾望...  先不管天時、地利，總得先知道哪些地方是值得去，而自己尚未去過的地方。底下表列蘋果、中國時報、7-Watch 所票選出來的百大景點，雖然有些景點寫得有點莫名其妙，但去"/><link rel="canonical" href="http://blog.xuite.net/tolarku/blog/43392927-%E5%8F%B0%E7%81%A3%E7%99%BE%E5%A4%A7%E6%99%AF%E9%BB%9E" /><meta name="description" content="之前曾看過報導票選的台灣百大景點，但沒特別的感覺，在看了「Palapalabu」的遊記後，讓我強烈的想規劃一下，整個環島一圈，哪一些點是我很想去的呢？從 2006-2007 興盛起的單車環台，到現在四處飄散的機車環島，甚至一日武陵看櫻花行程，都會激起我想去走一圈的慾望...  先不管天時、地利，總得先知道哪些地方是值得去，而自己尚未去過的地方。底下表列蘋果、中國時報、7-Watch 所票選出來的百大景點，雖然有些景點寫得有點莫名其妙，但去 @  @ tolarku"><script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-22581404-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script');ga.type = 'text/javascript';ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl': 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga, s);})();window.onerror = (function(){var max_report_count = 3;return function(message, file, line) {message = message || "(unknown error)";file = file || "(unknown file)";line = line || 0;var sFormattedMessage = '[' + file + ' (' + line + ')] ' + message + ' user agent : ' + navigator.userAgent;_gaq.push(['_trackEvent', 'Exceptions', 'Application', sFormattedMessage, null, true]);if(file.indexOf("xuite.net")!=-1 && max_report_count > 0){max_report_count--;$.getScript("/_public/js/frontendHelper.js?m="+encodeURIComponent(file+": "+message), function(){TemplateJS.instantHelper.resolve(message, file, line, navigator.userAgent, location.href);});}};})();</script><script src="http://img.xuite.net/_v_1.0.91/xui/combo/p/cookie,json,history,md5,lazyload/w/push,toptoolbar,like,pinnedsite,announce,visitor,tooltip,ie6,footer,dialog,dynamicviewinc,dynamicview,brickview,mosaicview,snapshotview,plainview,albumpost,albumplayer,api,breaktime"></script><script src="http://s.blog.xuite.net/_public/js/BlogPlugins.leading_area.js?v=http://img.xuite.net/_v_1.0.91"></script><!--[if lt IE 9]><script src="http://img.xuite.net/xui/plugins/html5shiv.js" ></script><![endif]--><script language="javascript" type="text/javascript" src="http://s.blog.xuite.net/_public/js/blog_01.js?v=http://img.xuite.net/_v_1.0.91"></script><script language="javascript" type="text/javascript" src="http://s.blog.xuite.net/_public/js/AC_RunActiveContent.js"></script><link rel="meta" href="http://s.blog.xuite.net/_public/js/labels.rdf" type="application/rdf+xml" title="ICRA labels" /><title>台灣百大景點 @ 黃昏的甘蔗 :: 隨意窩 Xuite日誌</title><!--hinet所提供的css:Begin --><link rel="stylesheet" type="text/css" href="http://img.xuite.net/_v_1.0.91/personal/blog/fix.css" /><!--hinet所提供的css:End --><link href="http://6.blog.xuite.net/6/9/8/7/16997768/blog_728051/blog.css" rel="stylesheet" type="text/css" /><SCRIPT language="javascript" type="text/javascript" src="http://s.blog.xuite.net/_public/js/common.js"></SCRIPT><link rel="alternate" type="application/rss+xml" title="Xuite Blog / RSS 2.0" href="http://blog.xuite.net/tolarku/blog/rss.xml" /><link rel="alternate" type="application/atom+xml" title="Xuite Blog / ATOM 0.3" href="http://blog.xuite.net/tolarku/blog/atom.xml" /><link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://img.xuite.net/_v_1.0.91/favicon/xuite/apple-touch-icon-152x152-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://img.xuite.net/_v_1.0.91/favicon/xuite/apple-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://img.xuite.net/_v_1.0.91/favicon/xuite/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://img.xuite.net/_v_1.0.91/favicon/xuite/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://img.xuite.net/_v_1.0.91/favicon/xuite/apple-touch-icon-76x76-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://img.xuite.net/_v_1.0.91/favicon/xuite/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="http://img.xuite.net/_v_1.0.91/favicon/xuite/apple-touch-icon-64x64-precomposed.png">
+<link rel="shortcut icon" href="http://img.xuite.net/_v_1.0.91/favicon/xuite/favicon.ico"/><script type="text/javascript">
+_atrk_opts = { atrk_acct:"Q+7Ii1a8Dy00qI", domain:"xuite.net",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=Q+7Ii1a8Dy00qI" style="display:none" height="1" width="1" alt="" /></noscript></head>  
+<body  ><!--[if lte IE 7]><div id="ie6" ></div><script>(new XUI.Widgets.IE6(document.getElementById('ie6'))).render();</script><![endif]--><div style="height:0px;"><img width="0" height="0" border="0" style="display:none;" src="http://track.xuite.net/b/cArticle?head&card_type=platinum"></div><!--toptoolbar start-->
+<div id="top-toolbar1" ></div>
+<script>
+TemplateJS.theme_navigationbar.main({
+	bid: '728051', articleID: '43392927', reportType: 'article',
+	tpl_type: 1, viewModes: [{"name":"\u6458\u8981\u6a21\u5f0f","URL":"http:\/\/blog.xuite.net\/tolarku\/blog\/[mode]-view\/43392927","selected":true,"value":"expert"},{"name":"\u5217\u8868\u6a21\u5f0f","URL":"http:\/\/blog.xuite.net\/tolarku\/blog\/[mode]-view\/43392927","selected":false,"value":"list"},{"name":"\u62cd\u7acb\u5f97\u6a21\u5f0f","URL":"http:\/\/blog.xuite.net\/tolarku\/blog\/[mode]-view\/43392927","selected":false,"value":"snapshot"},{"name":"\u78da\u7246\u6a21\u5f0f","URL":"http:\/\/blog.xuite.net\/tolarku\/blog\/[mode]-view\/43392927","selected":false,"value":"brick"},{"name":"\u99ac\u8cfd\u514b\u6a21\u5f0f","URL":"http:\/\/blog.xuite.net\/tolarku\/blog\/[mode]-view\/43392927","selected":false,"value":"mosaic"}]
+});
+</script>
+<!--toptoolbar end--><div id="wrap"><div class="extra1"></div><div class="extra2"></div><div class="extra3"></div><div class="extra4"></div><div id="container" ><div class="extra5"></div><div class="extra6"></div><div class="extra7"></div><div class="extra8"></div>
+<script language="javascript" type="text/javascript">
+var g_sidebar = {"ItemCalendar":"\u65e5\u66c6","ItemSearch":"\u641c\u5c0b\u6587\u7ae0","ItemCustom":"code","ItemCategory":"\u6587\u7ae0\u5206\u985e","ItemCounter":"\u53c3\u89c0\u4eba\u6b21\u7d71\u8a08","ItemArticleHotList":"\u6211\u7684\u767c\u71d2\u6587","ItemMessageList":"\u6700\u65b0\u56de\u61c9","ItemRank":"\u65e5\u8a8c\u8a55\u50f9"};
+var xuiteBlogPlugin_article_snapshot='Y';var xuiteBlogPlugin_facebook_comment_color='Y';var xuiteBlogPlugin_auto_yo='Y';var xuiteBlogPlugin_facebook_like_down='Y';var xuiteBlogPlugin_relate_article='Y';var xuiteBlogPlugin_history_today='Y';var xuiteBlogPlugin_bookmark='Y';var xuiteBlogPlugin_auto_resize='Y';var xuiteBlogPlugin_random_article='Y';var xuiteBlogPlugin_facebook_comment='Y'; 
+</script>       
+
+<!-- 插入Head選單程式:End --><style> #xuitelogo {_behavior:url(/png.htc)} </style><div id="banner"><div class="extra9"></div><div class="extra10"></div><div class="extra11"></div><div class="extra12"></div><div class="menulist"><div class="logo"><a href='http://blog.xuite.net'><img id='xuitelogo' src='http://s.blog.xuite.net/_image/logo.png' border='0'></a></div></div><h1 class="blogname"><a href="http://blog.xuite.net/tolarku/blog">黃昏的甘蔗</a></h1><h2 class="description">上善若水。水善利萬物而不爭，處眾人之所惡，故幾於道。<br></h2><ul id="service-list" class="tab_service" ><li id="service-blog" class="service-item" ><a title="日誌" class="service-link" href="http://blog.xuite.net/tolarku">日誌</a></li><li id="service-photo" class="service-item" ><a title="相簿" class="service-link" href="http://photo.xuite.net/tolarku">相簿</a></li><li id="service-vlog"  class="service-item" ><a title="影音" class="service-link" href="http://vlog.xuite.net/tolarku">影音</a></li><li id="service-gbook" class="service-item" ><a title="留言" class="service-link" href="http://gbook.xuite.net/tolarku">留言</a></li><li id="service-friend" class="service-item" ><a title="好友" class="service-link" href="http://my.xuite.net/friend/tolarku">好友</a></li><li id="service-card" class="service-item" ><a title="名片" class="service-link" href="http://xuite.net/tolarku">名片</a></li></ul></div><div id="main"><div id="mid"><div class="extra13"></div><div class="extra14"></div><div class="extra15"></div><div class="extra16"></div><div id="content">
+<div class="ArticleContent" typeof="sioc:Post sioct:BlogPost"><h3 class="title"><span class="titledate"><span class="titledate-year">2011</span><span class="titledate-month">03</span><span class="titledate-day">18</span><span class="titledate-hour">15</span><span class="titledate-min">18</span></span><span class="titlename">台灣百大景點</span>	</h3><div class="blogrank" ><div style="overflow:hidden;"><div><div><span  class="counter" style="margin-top:0px;"><span id ="article_counter">?</span></span><span class="category" style="margin-top:0px;"><a href="http://blog.xuite.net/tolarku/blog/?st=c&w=637995&p=1">生活趣事</a></span></div></div></div><div id ='tabs11'><div id ='clouddiv'><ul></ul></div></div></div><form name="map_near_main" action="/_theme/item/item_jsonp_near.php" method="GET" target="test" onsubmit="openSpecfiyWindown('test')" style="margin:0;padding:0"><input type="hidden" name="lat" value=''><input type="hidden" name="lng" value=''></form><div class="blogbody"><div id="content_all" style="padding : 1px 0 15px; *height : 1%"><p><span style="font-size: 12pt;">之前曾看過報導票選的台灣百大景點，但沒特別的感覺，在看了「<a href="http://www.mobile01.com/topicdetail.php?f=416&amp;t=2054345&amp;last=26581536">Palapalabu</a>」的遊記後，讓我強烈的想規劃一下，整個環島一圈，哪一些點是我很想去的呢？從 2006-2007 興盛起的單車環台，到現在四處飄散的機車環島，甚至一日武陵看櫻花行程，都會激起我想去走一圈的慾望...</span></p>
+<p><span style="font-size: 12pt;">先不管天時、地利，總得先知道哪些地方是值得去，而自己尚未去過的地方。底下表列蘋果、中國時報、7-Watch 所票選出來的百大景點，雖然有些景點寫得有點莫名其妙，但去過的算一分......我以為我去過了台灣大部分熱門的景點，沒想到我只得了平均 66 分的結果。<br /><br /></span></p>
+<p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; table-layout: fixed; width: 745px;">
+<colgroup ><col width="300" style="mso-width-source: userset; mso-width-alt: 9600; width: 225pt;"></col>
+ <col width="162" style="mso-width-source: userset; mso-width-alt: 5184; width: 122pt;"></col>
+ <col width="283" style="mso-width-source: userset; mso-width-alt: 9056; width: 212pt;"></col>
+ <col width="142" style="mso-width-source: userset; mso-width-alt: 4544; width: 107pt;"></col>
+ </colgroup>
+<tbody>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl66" width="300" style="height: 16.5pt; width: 225pt;"></td>
+<td width="162" style="width: 122pt;"></td>
+<td width="283" style="width: 212pt;"></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl68" style="height: 16.5pt;"><span style="font-size: 12pt;">蘋果</span></td>
+<td class="xl68" style="border-left: none;"><span style="font-size: 12pt;">中國時報</span></td>
+<td class="xl68" style="border-left: none;"><span style="font-size: 12pt;">7-watch</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span lang="EN-US"><span style="font-size: 12pt;">01.<span class="font6">南橫嘉明湖</span><span class="font5"> </span><span class="font6">山中蔚藍寶石</span></span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">1.野柳女王頭</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO1:嘉義 阿里山&nbsp;&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">02.<span class="font6">探棲蘭檜木原生林</span><span class="font5"> </span><span class="font6">宜蘭</span><span class="font5">160</span><span class="font6">線林道</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">2.新店碧潭</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO2:屏東 墾丁&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">03.<span class="font6">高雄田寮</span><span class="font5"> </span><span class="font6">探月世界</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">3.金色淡水</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO3:花蓮秀林 太魯閣&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">04.<span class="font6">台東近黃溫泉</span><span class="font5"> </span><span class="font6">浸淫溪畔三溫暖</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">4.新莊廟街</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO4:南投魚池 日月潭&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">05.<span class="font6">淡水小鎮戀夕陽</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">5.艋舺古剎多&nbsp;</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO5:澎湖縣 澎湖&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">06.<span class="font6">蘭嶼</span><span class="font5"> </span><span class="font6">體驗達悟族生活</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">6.北投溫泉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO6:南投仁愛 清境農場&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">07.<span class="font6">屏東門馬羅山</span><span class="font5"> </span><span class="font6">徜徉青青草原</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">7.三峽老街</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO7:台北縣 九份、金瓜石&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">08.<span class="font6">東勢林場</span><span class="font5"> </span><span class="font6">探美麗森林</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">8.大稻埕</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO8:台東縣 綠島</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">09.<span class="font6">高雄燕巢</span><span class="font5"> </span><span class="font6">滾滾泥漿</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">9.平溪天燈</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO9:南投仁愛 合觀山&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">10.<span class="font6">高雄美濃</span><span class="font5"> </span><span class="font6">訪油紙傘技藝</span><span class="font5"> </span><span class="font5">&nbsp;</span><span class="font6">尋菸田風華</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">10.老梅綠石槽</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO10:宜蘭、花蓮 蘇花公路&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">11. <span class="font6">金瓜石</span><span class="font5"> </span><span class="font6">和風留存</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">11.鶯歌陶瓷</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO11:台東卑南 知本溫泉</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">12. <span class="font6">嘉義瑞里風景區</span><span class="font5"> </span><span class="font6">探燕子崖蝙蝠洞</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">12.石門水庫</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO12:台中市 逢甲夜市&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">13. <span class="font6">九份山城</span><span class="font5"> </span><span class="font6">戀戀舊風</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">13.慈湖兩蔣園區</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO13:台東縣 蘭嶼</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">14. <span class="font6">澎湖</span><span class="font5"> </span><span class="font6">壯觀玄武岩</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">14.大溪老街</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO14:花蓮瑞穗、豐濱
+  秀姑巒溪泛舟&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">15. <span class="font6">彰化田尾</span><span class="font5"> </span><span class="font6">鄉間公路逐花影</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">15.拉拉山神木群</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO15:屏東縣 小琉球</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">16. <span class="font6">屏東三地門</span><span class="font5"> </span><span class="font6">探訪原鄉老技藝</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">16.觀霧似仙境</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO16:南投仁愛 奧萬大&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">17. <span class="font6">阿里山鄉來吉村</span><span class="font6">．</span><span class="font5"> </span><span class="font6">多囉嘕林道</span><span class="font5">&nbsp;</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">17.17公里海岸</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO17:台北市 陽明山&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">18.<span class="font6">台東卑南遺址</span><span class="font5"> </span><span class="font6">窺千年智慧光華</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">18.北埔客家風</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO18:花蓮新城 七星潭&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">19.<span class="font6">金門</span><span class="font5"> </span><span class="font6">戰地遺址尋風華</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">19.司馬庫斯</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO19:花蓮 花蓮海岸線&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">20.<span class="font6">高雄西子灣</span><span class="font5"> </span><span class="font6">觀夕照</span><span class="font5"> </span><span class="font6">逐沙灘</span><span class="font5"> </span><span class="font6">探古蹟</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">20.內灣尖石</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO20:高雄市 旗津&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">21.<span class="font6">玉山主峰</span><span class="font5"> </span><span class="font6">攀上台灣的屋頂</span><span class="font5">&nbsp;</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">21.清泉部落</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO21:南投鹿谷 溪頭&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">22.<span class="font6">南投信義梅之鄉</span><span class="font5"> </span><span class="font6">驚艷烏松崙</span><span class="font5"> </span><span class="font6">牛稠坑</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">22.六福村</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO22:新竹、苗栗、台中 雪霸、
+  觀霧&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">23.<span class="font6">澎湖東台古堡</span><span class="font5"> </span><span class="font6">洋溢希臘風</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">23. 泰安溫泉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO23:台北縣 淡水&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">24.<span class="font6">台北縣</span><span class="font5"> </span><span class="font6">平溪放天燈</span><span class="font5"> </span><span class="font6">保平安</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">24.南庄民宿</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO24:台中和平 武陵農場</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">25.<span class="font6">新竹內灣小鎮</span><span class="font5"> </span><span class="font6">懷舊之旅</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">25.三義木雕</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO25:台南市&nbsp; 安平&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">26.<span class="font6">苗栗大湖</span><span class="font5"> </span><span class="font6">新興溫泉區泡湯樂</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">26.飛牛牧場</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO26:台東卑南 初鹿牧場</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">27.<span class="font6">南投</span><span class="font5"> </span><span class="font6">溪頭衫林溪</span><span class="font5"> </span><span class="font6">徜徉綠森林</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">27.天狗部落</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO27:台北萬里 野柳&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">28.<span class="font6">台東池上</span><span class="font5"> </span><span class="font6">油菜花</span><span class="font5"> </span><span class="font6">金色饗宴</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">28.舊山線復駛</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO28:屏東縣 恆春&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">29. 3<span class="font6">大主題樂園</span><span class="font5"> </span><span class="font6">飆快感</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">29.福壽山農場</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO29:台南白河 關子嶺</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">30.<span class="font6">台中武陵農場</span><span class="font5"> </span><span class="font6">覓花海暢享森林浴</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">30.新社花海</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO30:南投縣 集集</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">31.<span class="font6">花蓮太魯閣</span><span class="font5"> </span><span class="font6">縱橫峽谷遊步道　</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">31.武陵農場</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO31:台北縣 北海岸&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="text-decoration: inherit;"><span style="font-size: 12pt;">32.<span class="font6">合歡峰群</span><span class="font5"> </span><span class="font6">四季戀歌</span></span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">32.高美濕地</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO32:台南鹽水 鹽水蜂炮</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;"><span style="text-decoration: inherit;">33.<span class="font6">原住民祭典</span><span class="font5"> </span><span class="font6">載歌載舞看原鄉文化</span></span><span lang="EN-US">&nbsp;</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">33.經國綠園道</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO33:台北、宜蘭 東北角&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">34.<span class="font6">太極峽谷</span><span class="font5"> </span><span class="font6">幽深峭壁見雄風</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">34.東豐自行車綠廊</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO34:彰化 鹿港&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">35.<span class="font6">桃源仙谷</span><span class="font5"> </span><span class="font6">鬱金香豔冠全國</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">35.谷關溫泉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO35:屏東縣 東港</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">36.<span class="font6">苗栗公館小鎮</span><span class="font5"> </span><span class="font6">玩陶採草莓</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">36.大雪山</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO36:金門縣 金門&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">37.<span class="font6">台東栗松</span><span class="font5"> </span><span class="font6">絕美野溪溫泉精采呈現</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">37.大甲鎮瀾宮</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO37:台東成功 三仙台</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">38.<span class="font6">花蓮六十石山</span><span class="font5"> </span><span class="font6">夏賞金針冬探綠</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">38.鹿港老街遊</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO38:宜蘭五結
+  冬山河親水公園&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">39.<span class="font6">東北角</span><span class="font5"> </span><span class="font6">海蝕風化石頭情</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">39.八卦山大佛</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO39:台東縣 台東海岸線</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">40.<span class="font6">嘎日爾曼峽谷</span><span class="font5"> </span><span class="font6">蘭嶼探秘境</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">40.優遊田尾</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO40:宜蘭大同 太平山&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">41.<span class="font6">台南</span><span class="font5"> </span><span class="font6">百年古蹟遊</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">41.芳苑蚵鄉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO41:台東 太麻里金針山</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">42.<span class="font6">台南鹽水看蜂炮</span><span class="font5"> </span><span class="font6">逛小鎮</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">42.埔里紙教堂</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO42:台中和平 谷關&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">43.<span class="font6">雲林草嶺</span><span class="font5"> </span><span class="font6">萬年峽谷</span><span class="font5"> </span><span class="font6">鬼斧神工磅礡奇景</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">43.竹山天梯</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO43:台北市 北投溫泉&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">44.<span class="font6">南投惠蓀林場</span><span class="font5"> </span><span class="font6">賞櫻花品咖啡</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">44.水里蛇窯</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO44:宜蘭縣 礁溪溫泉&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">45.<span class="font6">日月潭</span><span class="font5"> </span><span class="font6">遊覽湖光山色</span><span class="font5"> </span><span class="font6">共享浪漫情</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">45.日月潭纜車</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO45:台北縣 鳥來&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">46.<span class="font6">苗栗三義舊山線</span><span class="font5"> </span><span class="font6">思古尋幽情</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">46.日月潭</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO46:高雄 夢時代購物中心&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">47.<span class="font6">南橫公路</span><span class="font5"> </span><span class="font6">櫻桃競艷舞春風</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">47.清境農場</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO47:雲林古坑 台灣咖啡</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">48.<span class="font6">台中新社</span><span class="font5"> </span><span class="font6">薰衣草櫻花爭妍</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">48.口湖牽水狀</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO48:花蓮壽豐 鯉魚潭&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">49.<span class="font6">大甲媽祖遶境</span><span class="font5"> </span><span class="font6">宗教嘉年華</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">49.西螺武術</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO49:高雄縣 美濃&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">50.<span class="font6">花蓮林田山</span><span class="font5"> </span><span class="font6">漾日式風情</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">50.虎尾偶戲館</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO50:宜蘭頭城 龜山島&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">51.<span class="font6">林美石磐步道</span><span class="font5"> </span><span class="font6">忘情山水遊</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">51.草嶺過動兒</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO51:台東海端
+  南橫公路台東段&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">52.<span class="font6">高雄內門宋江陣</span><span class="font5"> </span><span class="font6">民俗藝陣</span><span class="font5"> </span><span class="font6">虎虎生風</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">52.北港媽祖廟</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO52:花蓮富里 六十石山</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">53.<span class="font6">茂林紫蝶幽谷</span><span class="font5"> </span><span class="font6">紫斑蝶漫天飛舞</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">53.阿里山</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO53:新竹橫山 內灣</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">54.<span class="font6">苗栗南庄</span><span class="font5"> </span><span class="font6">賞湖光品咖啡香</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">54.新港剪黏小火車</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO54:宜蘭縣 蘇澳&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">55.<span class="font6">北橫公路</span><span class="font5"> </span><span class="font6">山清水秀覓幽情</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">55.隙頂?頭茶鄉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO55:台北市 貓空&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">56.<span class="font6">宜蘭冬山河</span><span class="font5"> </span><span class="font6">賞落羽松</span><span class="font5"> </span><span class="font6">乘遊船</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">56.東石布袋蚵田</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO56:台東鹿野 鹿野綠色隧道</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">57.<span class="font6">台北烏來</span><span class="font5"> </span><span class="font6">森林浴泡湯訪泰雅情</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">57.南瀛五大香科</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO57:南投 埔里&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">58.<span class="font6">南橫塔關山</span><span class="font5"> </span><span class="font6">登高遠眺賞巨木</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">58.搭船遊潟湖</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO58:台中市 東海大學&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">59.<span class="font6">屏東老七佳</span><span class="font5"> </span><span class="font6">追尋排灣族百年石板屋</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">59.看古蹟嘗小吃</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO59:連江縣 馬祖</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">60.<span class="font6">台南</span><span class="font5"> </span><span class="font6">南化關山林</span><span class="font5"> </span><span class="font6">山林溪壑別有洞天</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">60.鹽水蜂炮</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO60:台北縣 平溪</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">61.<span class="font6">墾丁南仁湖</span><span class="font5"> </span><span class="font6">窺探生態寶庫</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">61.關子嶺泡溫泉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO61:台東縣 關山</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">62.<span class="font6">花蓮</span><span class="font5"> </span><span class="font6">銅門龍澗</span><span class="font5"> </span><span class="font6">探峽谷尋魚蹤</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">62.優遊愛河</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO62:苗栗縣 南庄&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">63.<span class="font6">台東鹿野</span><span class="font5"> </span><span class="font6">乘飛行傘</span><span class="font5"> </span><span class="font6">漫步綠色隧道</span><span class="font5">&nbsp;</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">63.日落西子灣</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO63:屏東縣 三地門</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">64.<span class="font6">新竹北埔</span><span class="font5"> </span><span class="font6">老街窺探老客家</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">64.美濃花海</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO64:花蓮玉山 赤科山&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">65.<span class="font6">陽明山</span><span class="font5"> </span><span class="font6">賞櫻觀夜景</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">65.月世界</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO65:台中 新社&nbsp;&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">66.<span class="font6">屏東舊好茶</span><span class="font5"> </span><span class="font6">翻山越嶺尋部落</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">66.佛光山</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO66:台南七股 ?湖、鹽山</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">67.<span class="font6">新竹司馬庫斯</span><span class="font5"> </span><span class="font6">覽巨木群訪部落</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">67.茂林生態遊</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO67:台南縣 白河</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">68.<span class="font6">彰化鹿港</span><span class="font5"> </span><span class="font6">見證歲月老技藝</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">68.海生館</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO68:南投縣 鹿谷</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">69.<span class="font6">南投巴庫拉斯</span><span class="font5"> </span><span class="font6">山居歲月閒適體驗</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">69.四重溪溫泉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO69:台中后里 后豐鐵馬道</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">70.<span class="font6">南澳鹿皮溪</span><span class="font5"> </span><span class="font6">溯溪探訪金岳瀑布</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">70.牡丹鄉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO70:宜蘭員山 福山植物園&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">71.<span class="font6">屏東觀音鼻</span><span class="font5"> </span><span class="font6">原始海岸揭秘</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">71.墾丁國家公園</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO71:嘉義縣 東石、布袋漁鄉</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">72.<span class="font6">水森林</span><span class="font5"> </span><span class="font6">嘉義南投尋遊奇景</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">72.小琉球</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO72:桃園復興 北部橫貫公路&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">73.<span class="font6">台東綠島</span><span class="font5"> </span><span class="font6">泡溫泉</span><span class="font5"> </span><span class="font6">賞飛魚</span><span class="font5"> </span><span class="font6">雙享樂</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">73.太平山</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO73:台南左鎮
+  草山月世界(二寮日出)&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">74.<span class="font6">台南安平</span><span class="font5"> </span><span class="font6">走逛老街啖蝦餅</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">74.蘇澳冷泉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO74:台中和平
+  大雪山森林遊樂區&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">75.<span class="font6">新竹尖石</span><span class="font5"> </span><span class="font6">巨岩山林攬悠閒</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">75.草嶺古道</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO75:花蓮光復 馬太鞍濕地</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">76.<span class="font6">石門水庫</span><span class="font5"> </span><span class="font6">環湖覽山光水色</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">76.棲蘭神木園</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO76:台北縣 鶯歌&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">77.<span class="font6">花蓮溯溪</span><span class="font5"> </span><span class="font6">清水溪</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">77.頭城老街</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO77:宜蘭大同 明池&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">78.<span class="font6">嘉義阿里山</span><span class="font5"> </span><span class="font6">吉野櫻開森呼吸</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">78.冬山河</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO78:高雄六龜、茂林 茂林國家風景區</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">79.<span class="font6">南投</span><span class="font5"> </span><span class="font6">梅鋒清境農場</span><span class="font5"> </span><span class="font6">擁綠意覓桃花</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">79.花東縱谷花海</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO79:台東市 台東森林公園</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">80.<span class="font6">馬祖南北竿</span><span class="font5"> </span><span class="font6">石屋村落覓異國風</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">80.馬太鞍濕地</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO80:台中石崗、東勢
+  東豐鐵馬道&nbsp;</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">81.<span class="font6">高雄愛河</span><span class="font5"> </span><span class="font6">與浪漫有約</span><span class="font5">&nbsp;</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">81.花東金針山</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO81:花蓮縣 壽豐</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">82.<span class="font6">梨山賞水果花</span><span class="font5"> </span><span class="font6">百花爭妍美不勝收</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">82.花東豐年祭</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO82:台北貢寮 草嶺古道</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">83.<span class="font6">燒陶玩陶</span><span class="font5"> </span><span class="font6">尋訪南投</span><span class="font5">3</span><span class="font6">窯場</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">83.太魯閣</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO83:台中東勢 東勢林場</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">84.<span class="font6">花蓮秀姑巒溪</span><span class="font5"> </span><span class="font6">同舟共濟挑戰激流</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">84.七星潭</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO84:新竹北埔 北埔冷泉</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">85.<span class="font6">屏東墾丁</span><span class="font5"> </span><span class="font6">海洋沙灘歡春吶</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">85.東海岸民宿</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO85:花蓮壽豐 慕谷慕魚小天祥</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">86.<span class="font6">宜蘭綠色博覽會</span><span class="font5"> </span><span class="font6">花間嬉遊與春天有約</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">86.遠眺都蘭灣</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO86:台東縣 池上</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">87.<span class="font6">和風北投</span><span class="font5"> </span><span class="font6">台灣最美</span><span class="font5"> </span><span class="font6">溫泉鄉</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">87.鹿野</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO87:苗栗縣 大湖</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">88.<span class="font6">屏東小琉球</span><span class="font5"> </span><span class="font6">賞奇岩探海底世界</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">88.知本溫泉</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO88:台中市 台中綠園道</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">89.<span class="font6">宜蘭龜山島</span><span class="font5"> </span><span class="font6">探尋海上生態公園</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">89.南橫東段(達成)</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO89:桃園新屋 永安漁港綠色隧道</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">90.<span class="font6">全台船王祭</span><span class="font5"> </span><span class="font6">烈火燒祈福來</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">90.卑南溪泛舟</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO90:南投信義 新中橫</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">91.<span class="font6">宜蘭頭城</span><span class="font5"> </span><span class="font6">海陸空樂無窮</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">91.環市自行車道</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO91:高雄市 小港機場看飛機</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">92.<span class="font6">花蓮富源森林遊樂區</span><span class="font5"> </span><span class="font6">觀瀑賞蝶泡暖湯</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">92.蘭嶼</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO92:花蓮豐濱 石梯坪</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">93.<span class="font6">集集小鎮</span><span class="font5"> </span><span class="font6">優游綠蔭覓花</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">93.綠島</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO93:台中霧峰 921地震教育園區</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">94.<span class="font6">宜蘭柚花開</span><span class="font5"> </span><span class="font6">乘電動牛車尋香</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">94.金門尋鱟</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO94:台東東河 都蘭</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">95.<span class="font6">蘭嶼</span><span class="font5"> </span><span class="font6">墾丁</span><span class="font5"> </span><span class="font6">飛魚季</span><span class="font5"> </span><span class="font6">傳統現代兩風貌</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">95.澎湖七美雙心石滬</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO95:宜蘭頭城 頭城搶孤</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">96.<span class="font6">龍洞攀岩</span><span class="font5"> </span><span class="font6">一縫一步一景色</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">96.澎湖二崁</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO96:苗栗縣 三義</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">97.<span class="font6">台中太平</span><span class="font5"> </span><span class="font6">拜訪枇杷原鄉</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">97金門古厝</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO97:新竹市
+  南寮漁港(17公里海岸線)</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">98.<span class="font6">花蓮七星潭</span><span class="font5"> </span><span class="font6">星月海灣逐浪嬉遊</span><span class="font5">&nbsp;</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">98.馬祖燕鷗</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO98:屏東內埔 六堆客家文化園區</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">99.<span class="font6">台北再生空間</span><span class="font5"> </span><span class="font6">瀰漫藝術休閒風</span><span class="font5">&nbsp;</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">99.馬祖坑道風光</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO99:苗栗泰安 泰安溫泉</span></td>
+</tr>
+<tr height="22" style="height: 16.5pt;">
+<td height="22" class="xl69" style="height: 16.5pt; border-top: none;"><span style="font-size: 12pt;">100.<span class="font6">穿越黑森林</span><span class="font5"> </span><span class="font6">雪山圈谷</span><span class="font5"> </span><span class="font6">登高觀生態</span></span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">100.馬祖天后宮</span></td>
+<td class="xl68" style="border-top: none; border-left: none;"><span style="font-size: 12pt;">NO100:南投仁愛 惠蓀林場</span></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;">等我思考完備，我也要寫一份屬於我自己的台灣百大景點，然後一個一個的給他走過、看過、玩過、停下腳步心神領會過～</span></p>
+<p><span style="font-size: 12pt;">～ End</span></p>
+<p>&nbsp;</p></div><script language="javascript">(function(){$('#content_all img').map((function(){var skip_count = 2;return function(){var $this = $(this);if(this.src.indexOf('.gif') == -1) {var data = {title: this.title || this.alt || '',description: '',src: this.src,size: 'o',href: $this.parent('a')};if(data.href.length != 0)  {data.href = data.href[0].href;} else {data.href = '#';}if(skip_count <= 0) {var src = this.src;$(this).addClass('lazyload').attr({'src': 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7','data-original': src});} else {skip_count--;}}return this;};})());$(function(){$('#content_all img').lazyload({effect: 'fadeIn',threshold: 600,load: function() {$(this).removeClass('lazyload');if( BlogPlugins && BlogPlugins.auto_resize &&(typeof xuiteBlogPlugin_auto_resize=="undefined") || (xuiteBlogPlugin_auto_resize == null) || (xuiteBlogPlugin_auto_resize == 'Y') ) {BlogPlugins.auto_resize(this, null, {delay:1000});}}});});})();var itemArticleDetailType = "";if(getCookie("MemberInformation") != null && itemArticleDetailType != "article_preview"){$.ajax({type: "GET",url: "/_theme/AuthorButtonExp.php?aid=43392927&bid=728051&mid=16997768&author_id=16997768&article_type=blog&ga="+(new Date()).getTime(),async: false,dataType: 'json',success: getButton});}function getButton(json){document.write("<div id='owner_button'>"+json+"</div>");}if ((typeof xuiteBlogPlugin_auto_yo=="undefined") || (xuiteBlogPlugin_auto_yo == null) || (xuiteBlogPlugin_auto_yo == 'Y'))  {$.ajax({type: "GET",url: "http://s.blog.xuite.net/_public/js/BlogPlugins.auto_yo.js",success: function(){BlogPlugins.auto_yo.fetchItem(43392927);},dataType: "script",cache: true});}</script><div class="rank">平均分數：<span id="article_average_stars">0</span> 顆星&nbsp;&nbsp;&nbsp;&nbsp;投票人數：<span id="article_men">0</span>  人<br>我要評分：<span id="SelectScore2"></span></div><script>if ((typeof xuiteBlogPlugin_bookmark=="undefined") || (xuiteBlogPlugin_bookmark == null) || (xuiteBlogPlugin_bookmark == 'Y')){document.write("<div class='bookmark'></div>");(new XUI.Widgets.Push($(".bookmark"))).render();}</script><div class="articleExt" style="display:block;"><div id="facebook-like-bottom" ></div><script language="javascript">if ((typeof xuiteBlogPlugin_facebook_comment=="undefined") || (xuiteBlogPlugin_facebook_comment == null) || (xuiteBlogPlugin_facebook_comment == 'Y')){var myBlogThemeWidth = $(".title").width()-38;if ((typeof xuiteBlogPlugin_facebook_comment_color=="undefined") || (xuiteBlogPlugin_facebook_comment_color == null) || (xuiteBlogPlugin_facebook_comment_color == 'Y')){document.write('<div id="fb-root"></div>'+'<div class="fb-comments" data-href="http://blog.xuite.net/tolarku/blog/43392927" data-width="'+myBlogThemeWidth+'" data-numposts="5" data-colorscheme="light"></div>');}else    {document.write('<div id="fb-root"></div>'+'<div class="fb-comments" data-href="http://blog.xuite.net/tolarku/blog/43392927" data-width="'+myBlogThemeWidth+'" data-numposts="5" data-colorscheme="dark"></div>');}(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.0";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));}if ((typeof xuiteBlogPlugin_facebook_like_down == "undefined") || (xuiteBlogPlugin_facebook_like_down == null) || (xuiteBlogPlugin_facebook_like_down == 'Y')){$(document).ready(function(){(new XUI.Widgets.Like(document.getElementById('facebook-like-bottom'), { mode : 'face' , URL : 'http://blog.xuite.net/tolarku/blog/43392927' })).render();});}</script><div class="articleExtAd" style="display:block;"><script language="javascript">var notVIP = '<div id="articleExtad_title"><ul id="articleExt_relate_ads" style="position: relative; background: #fffbe3; border: 1px solid #fcb60a; border-radius: 4px; font-size: 13px; line-height: 18px; margin-bottom: 10px; padding: 5px; color: #666; width: auto; height: 140px; overflow: hidden;"></ul></div>';$('.top-toolbar').data('top-toolbar').setAD({title: "\u53f0\u7063\u767e\u5927\u666f\u9ede",label: "30"});$.ajax({ type: "POST", url: "/_theme/YsmAd.php", data: "title=台灣百大景點&label=30", dataType: "json",success: function(json){var adString = '';if(json != null && json.length != 0){$(".articleExtAd").append(notVIP);jQuery.each( json, function(index,poi){adString += '<li style ="margin-bottom:6px;" onClick="window.open(\'' + poi['clickurl'] + '\')" style="cursor:pointer;">' + '<a style="color:#00c;">' + poi['title'] + '</a>' + '<div>' + poi['description'] + '</div>' + '</li>'; });adString += '<div><span class="go-sponsor" style="color:#999;"><a href="http://tw.rd.yahoo.com/referurl/search/evt=30238/*http://tw.emarketing.yahoo.com/ysm/contactus/index.html?o=TW0145&cmp=TW0145" target="_new">Ads by Yahoo</a></span></div>';$("#articleExt_relate_ads").append(adString);}else{$.getScript( "http://s.blog.xuite.net/_public/js/ysmad.js" ).done(function( script, textStatus ) {var notVIP = '<div id="articleExtad_title"><ul id="articleExt_relate_ads" style="position: relative; background: #fffbe3; border: 1px solid #fcb60a; border-radius: 4px; font-size: 13px; line-height: 18px; margin-bottom: 10px; padding: 5px; color: #666; width: auto; height: 140px; overflow: hidden;"></ul></div>';$(".articleExtAd").append(notVIP);});}}});</script></div></div><script language="javascript">if( (typeof xuiteBlogPlugin_random_article=="undefined") || (xuiteBlogPlugin_random_article == null) || (xuiteBlogPlugin_random_article == 'Y') || (xuiteBlogPlugin_random_article == 'YY') ){$(".articleExt").append('<div class="ArticleRelateSide"><div id="articleExt_random_title"></div>');var random_content = '<ul id="articleExt_random_content" class="random-article" ></ul>';$(".articleExt").append(random_content);$.get("/_theme/ArticleRandomExp.php?bid=728051&plugin_random="+xuiteBlogPlugin_random_article+"&theme_type=&tpl_type=1", function(data){$("#articleExt_random_content").append(data);if(data != null && data != ""){$("#articleExt_random_title").append("隨機文章 : ");if(xuiteBlogPlugin_random_article == "YY")$("ul#articleExt_random_content").attr("class","");}});}if( (typeof xuiteBlogPlugin_relate_article=="undefined") || (xuiteBlogPlugin_relate_article == null) || (xuiteBlogPlugin_relate_article == 'Y')){$(".articleExt").append('<div class="ArticleRelateSide"><div id="articleExt_relate_title"></div><ul id="articleExt_relate_content"></ul>');$.ajax({ type: "POST", url: "/_theme/ArticleIdRelateExp.php", data: "id="+ 43392927, dataType: "json",success: function(json){var relateString = '';if(json != null && json.length != 0){jQuery.each( json, function(index,poi){relateString += '<li><a target="_blank" href="' + poi['url'] + '">' + poi['title'] + '</a></li>'; });$("#articleExt_relate_content").append(relateString);$("#articleExt_relate_content").append('<img src="http://redir.xuite.net/redir/xuite/blog/articledetail/plugins/relate%5Ehttp://s.blog.xuite.net/_image/spacer.gif" width="1" height="1" border="0" />');$("#articleExt_relate_title").append("相關文章 : ");}else{$("#articleExt_relate_content").append("沒有相關文章");}}});}if( (typeof xuiteBlogPlugin_history_today=="undefined") || (xuiteBlogPlugin_history_today == null) || (xuiteBlogPlugin_history_today == 'Y')){$(".articleExt").append("<div class=\"ArticleRelateSide\"><div id=\"articleExt_today_title\">歷史上的今天:</div></div><ul id=\"ArticleTodaySide\"><li><a href=\"http://blog.xuite.net/tolarku/blog/66716683\">mRemoteNG 好用的遠端桌面、系統管理工具</a>(2013-03-18)</li></ul>");}</script><div class="posted"><a href="http://xuite.net/tolarku">喜歡在黃昏啃甘蔗</a> / <a href="/">Xuite日誌</a> / <a href="#message">回應(0)</a> / <a href="#trackback">引用(5)</a></div><div class="selectbar"><a href="43123434">三叉山 - 環繞橫幅</a>|<a href="http://blog.xuite.net/tolarku/blog/">日誌首頁</a>|<a href="43393719">[免安裝] 架站工具 USBW...</a><a class="article-navi article-navi-prev" href="43123434" title="三叉山 - 環繞橫幅" style="opacity: 0"><span class="article-navi-label">上一篇</span><img class="article-navi-thumb" src="43123434/cover600.jpg?d=600.png" /><span class="article-navi-title">三叉山 - 環繞橫幅</span><span class="article-navi-arrow"></span></a><a class="article-navi article-navi-next" href="43393719" title="[免安裝] 架站工具 USBWebserver - PHP、MySQL、Phpmyadmin、Web Service httpd" style="opacity: 0"><span class="article-navi-label">下一篇</span><img class="article-navi-thumb" src="43393719/cover600.jpg?d=600.png" /><span class="article-navi-title">[免安裝] 架站工具 USBWebserver - PHP、MySQL、Phpmyadmin、Web Service httpd</span><span class="article-navi-arrow"></span></a></div></div><a name='trackBack_header'></a><div class="item_trackBack"></div><a name='message_header'></a><div class="comment"><span class="commenttitle">回應</span><span class="commentbutton-menu"><a class="commentbutton" href="javascript:;" onclick="window.open('http://blog.xuite.net/_theme/message/message_post.php?bid=728051&aid=43392927','_blank','width=660,height=700,scrollbars=1')" title="回應"></a></span></div><div class="item_message"></div><div class="alertLoad" style="display:none;width:50px;height:50px;z-index:30;"><img src="http://b.blog.xuite.net/b/3/a/c/11893557/blog_10351/txt/11293067/7.gif"/></div><div class='jqmWindow' id='dialog'></div></div>
+<script language="javascript">
+	function Score_Set2(idx){
+		if(idx < 0 || idx > 5)return;
+		var i, line;line='';
+		for(i=1;i <=idx;i++){
+			line+='<img src="http://s.blog.xuite.net/_image/score_02.gif" width="15" height="14" border="0" onMouseOut="javascript:Score_Set2(0);" onClick="javascript:Score_Send2('+i+');">';
+		}
+		for(i=idx+1;i <=5;i++){
+			line+='<img src="http://s.blog.xuite.net/_image/score_021.gif" width="15" height="14" border="0" onMouseOver="javascript:Score_Set2('+i+');">';
+		}
+		document.getElementById('SelectScore2').innerHTML=line;
+		if (idx > 0) {
+			window.status='給 '+idx+' 顆星';
+        }
+        else    {
+            window.status='';
+		}
+	}
+
+	function Score_Send2(score){
+		if( document.cookie.indexOf("MemberSN") == -1){
+			if(confirm("請先登入Xuite會員")){
+				document.location.href="/_members/login.php?furl="+location.href;
+				return;
+			}else{
+				return;
+			}
+		}
+		if(!confirm('您已將這篇文章評分為 '+score+' 顆星。按一下 [確定] 表示確認。')){return;}
+		document.location.href='/_theme/doRank.php?type=article&relate_id=43392927&stars='+score;
+	}
+
+	function setarticleRank(inMen,inStars){
+	 var Stars = document.all ? document.all('article_average_stars') : document.getElementById('article_average_stars');
+	 Stars.innerHTML = inStars;
+
+	 var Men = document.all ? document.all('article_men') : document.getElementById('article_men');
+	 Men.innerHTML = inMen;
+	}
+
+	function wopen(){
+	 window.open("http://blog.xuite.net/_theme/item/item_auto_trackback.php?ping=http://blog.xuite.net/tolarku/blog/43392927/track","trackBack","location=no,toolbar=no,resizable=yes,scrollbars=yes,width=430,height=400")
+	}
+
+	function copy_clip(meintext)
+	{
+	 if (window.clipboardData)
+	   {
+	   // the IE-manier
+	   window.clipboardData.setData("Text", meintext);
+	   }
+	}
+
+	function openSpecfiyWindown(windowName){
+	   window.open('about:blank',windowName,'width=800,height=600,menubar=no,scrollbars=yes');
+	}
+
+
+    function doMsgDelete(mid,page){
+      if(confirm("是否確定要刪除")){
+         $("div.jqmWindow").html("<iframe style='display:none;' src='/_theme/message/message_delete.php?act=delete&mid="+mid+"&page="+page+"'></iframe>");
+      }
+    }
+
+    function doTrackDelete(tid,lid,url,page){
+			if(confirm("是否確定要刪除")){
+       $("div.jqmWindow").html("<iframe style='display:none;' src='/_theme/trackback/track_delete.php?act=delete&tid="+tid+"&lid="+lid+"&url="+url+"&page="+page+"&track_flag=Y'></iframe>");
+		  }
+    }
+
+		function doMsgEdit(mid,page){
+			var l="/_theme/message/message_post.php?act=edit&mid="+mid+"&aid=43392927&bid=728051&page="+page;
+			window.open(l,'post_win','width=660,height=700,scrollbars=1');
+		}
+
+		function doMsgReplyAdd(rel_id,page,owner_sn,owner_login_id){
+			var l="/_theme/message/message_post.php?act=reply&rel_id="+rel_id+"&aid=43392927&bid=728051&page="+page+"&owner_sn="+owner_sn+"&owner_login_id="+owner_login_id;
+			window.open(l,'post_win','width=660,height=700,scrollbars=1');
+		}
+
+		function doMsgReplyEdit(mid,page){
+			var l="/_theme/message/message_post.php?act=reply_edit&mid="+mid+"&aid=43392927&bid=728051&page="+page;
+			window.open(l,'post_win','width=660,height=700,scrollbars=1');
+		}
+
+		function doSummary(arg)	{
+           $("#summarySwitch").html($("#summaryContent").html());
+           $("#summaryContent").html($("#summaryDisplay").html());
+           $("#summaryDisplay").html($("#summarySwitch").html());
+        }
+
+	</script>
+<script language="javascript">
+    $(document).ready(function(){
+        var index="";
+        Message(43392927,728051,16997768,16997768,index);
+        TrackBack('43392927','tolarku','blog','16997768','728051','16997768','Y',index);
+
+        if ((typeof xuiteBlogPlugin_auto_resize=="undefined") || (xuiteBlogPlugin_auto_resize == null) || (xuiteBlogPlugin_auto_resize == 'Y'))  {
+            $.ajax({
+                    type: "GET",
+                    url: "http://s.blog.xuite.net/_public/js/BlogPlugins.auto_resize.js",
+                    success: function(){
+                        BlogPlugins.auto_resize("#content_all img", null, {delay:1000});
+                    },
+                    dataType: "script",
+                    cache: true
+            });
+        }
+
+        $.ajax({
+         type: "GET",
+         url: '/_theme/ArticleDetailCounterExp.php?aid=43392927&ga='+(new Date()).getTime(),
+         dataType: 'json',
+         success: getArticleDetailCounter
+        });
+        Score_Set2(0);
+        setarticleRank(0,0);
+        $('.article-navi').one('mouseover', function(){
+            _gaq.push(['_trackEvent', 'ArticleNavi', 'mouseover', $(this).attr('class'), null, true]);
+        }).one('click', function(){
+            var that = this;
+            _gaq.push(['_trackEvent', 'ArticleNavi', 'click', $(this).attr('class'), null, true]);
+            setTimeout(function(){
+                location.href = that.href;
+            }, 500);
+            return false;
+        });
+    });
+
+   function getArticleDetailCounter(json){
+    $("#article_counter").html(json[0].counter);
+
+   }
+
+   function TrackBack(aid,b_login,b_url,mid,bid,a_author_id,track_flag,index){
+     $.ajax({
+     type: "GET",
+     url: '/_theme/TrackBackShowExp.php?aid='+aid+'&b_login='+b_login+'&b_url='+b_url+'&mid='+mid+'&bid='+bid+'&a_author_id='+a_author_id+'&track_flag='+track_flag+'&index='+index+'&ga='+(new Date()).getTime(),
+     dataType: 'json',
+     async: false,
+     success: getTrackBackShow
+    });
+   }
+
+   function Message(aid,bid,uid,a_author_id,index){
+     $("div.item_message").html("");
+     $("div.alertLoad").ajaxStart(function(){
+       $(this).show();
+     });
+     $("div.alertLoad").ajaxStop(function(){
+                $(this).hide();
+                $(this).unbind("ajaxStart");
+     });
+     var mid = "";
+     if (index == "" && location.hash != '#message_header')   {
+         mid = location.hash.replace("#","");
+     }
+         
+     $.ajax({
+     type: "GET",
+     url: '/_theme/MessageShowExp.php?ver=new&aid='+aid+'&uid='+uid+'&bid='+bid+'&a_author_id='+a_author_id+'&index='+index+'&mid='+mid+'&ga='+(new Date()).getTime(),
+     dataType: 'json',
+     async: false,
+     success: getMessageShow
+    });
+   }
+
+    function getMessageShow(json){
+        $("div.item_message").html(json['message'].content);
+        $("div.alertLoad").hide();
+        if(json['aside'].check != 0){
+        for( i =0; i < json['aside'].length; i++){
+         $("div#authorname_"+json['aside'][i].id).html("<div class='commenttext'>(這則留言是<font color='#FF9933'>悄悄話</font>)</div>");
+         $("div#commenttext_"+json['aside'][i].id).html(json['aside'][i].content);
+        }
+        }
+
+        if (json['button'].check != 0){
+        for( i =0; i < json['button'].length; i++) {
+         if(json['button'][i].level == 'all'){
+         /*是回覆*/
+           if(json['button'][i].relation_id != null && json['button'][i].relation_id != undefined){
+                $("div#commentbutton_"+json['button'][i].relation_id).html("<a href='#' onClick='doMsgReplyEdit("+json['button'][i].relation_id+","+json['page'].index+");return false;'> <img src='/_image/blog041.gif' alt='修改回覆' title='修改回覆' width='40' height='18' border='0' align='absbottom'></a>&nbsp;&nbsp;&nbsp;<a href='#' onClick='doMsgDelete("+json['button'][i].relation_id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='回覆刪除' title='回覆刪除' width='40' height='18' border='0' align='absbottom'></a>");
+         /*是回應*/
+           }else{
+                 /*有回覆*/
+                 if($("div#reply_"+json['button'][i].id).html() != null){
+                    $("div#commentbutton_"+json['button'][i].id).html("<a href='#' onClick='doMsgEdit("+json['button'][i].id+","+json['page'].index+");return false;'> <img src='/_image/blog041.gif' alt='修改' title='修改' width='40' height='18' border='0' align='absbottom'></a>&nbsp;&nbsp;&nbsp;<a href='#' onClick='doMsgDelete("+json['button'][i].id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='刪除' title='刪除' width='40' height='18' border='0' align='absbottom'></a>");
+                 /*沒回覆*/
+                 }else{
+                    if(json['button'][i].self_write != 'y'){
+                      $("div#commentbutton_"+json['button'][i].id).html("<a href='#' onClick='doMsgEdit("+json['button'][i].id+","+json['page'].index+");return false;'> <img src='/_image/blog041.gif' alt='修改' title='修改' width='40' height='18' border='0' align='absbottom'></a>&nbsp;&nbsp;&nbsp;<a href='#' onClick='doMsgDelete("+json['button'][i].id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='刪除' title='刪除' width='40' height='18' border='0' align='absbottom'></a>");
+                    }else{
+                      $("div#commentbutton_"+json['button'][i].id).html("<a href='#' onClick='doMsgReplyAdd("+json['button'][i].id+","+json['page'].index+","+json['button'][i].owner_sn+",\""+json['button'][i].owner_login_id+"\");return false;'> <img src='/_image/blog043.gif' alt='新增回覆' title='新增回覆' width='40' height='18' border='0' align='absbottom'></a>&nbsp;&nbsp;&nbsp;<a href='#' onClick='doMsgEdit("+json['button'][i].id+","+json['page'].index+");return false;'> <img src='/_image/blog041.gif' alt='修改' title='修改' width='40' height='18' border='0' align='absbottom'></a>&nbsp;&nbsp;&nbsp;<a href='#' onClick='doMsgDelete("+json['button'][i].id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='刪除' title='刪除' width='40' height='18' border='0' align='absbottom'></a>");
+                    }
+                 }
+           }
+          }else if(json['button'][i].level == 'one'){
+             /*是回覆*/
+             if(json['button'][i].relation_id != null && json['button'][i].relation_id != "undefined"){
+                $("div#commentbutton_"+json['button'][i].relation_id).html("<a href='#' onClick='doMsgReplyEdit("+json['button'][i].relation_id+","+json['page'].index+");return false;'> <img src='/_image/blog041.gif' alt='修改回覆' title='修改回覆' width='40' height='18' border='0' align='absbottom'></a>&nbsp;&nbsp;&nbsp;<a href='#' onClick='doMsgDelete("+json['button'][i].relation_id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='回覆刪除' title='回覆刪除' width='40' height='18' border='0' align='absbottom'></a>");
+              /*是回應*/
+             }else{
+                 /*有回覆*/
+                 if($("div#reply_"+json['button'][i].id).html() != null){
+                    $("div#commentbutton_"+json['button'][i].id).html("<a href='#' onClick='doMsgDelete("+json['button'][i].id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='刪除' title='刪除' width='40' height='18' border='0' align='absbottom'></a>");
+                  /*沒回覆*/
+                 }else{
+                    if(json['button'][i].self_write != 'y'){
+                       $("div#commentbutton_"+json['button'][i].id).html("<a href='#' onClick='doMsgDelete("+json['button'][i].id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='刪除' title='刪除' width='40' height='18' border='0' align='absbottom'></a>");
+                    }else{
+                       $("div#commentbutton_"+json['button'][i].id).html("<a href='#' onClick='doMsgReplyAdd("+json['button'][i].id+","+json['page'].index+","+json['button'][i].owner_sn+",\""+json['button'][i].owner_login_id+"\");return false;'> <img src='/_image/blog043.gif' alt='新增回覆' title='新增回覆' width='40' height='18' border='0' align='absbottom'></a>&nbsp;&nbsp;&nbsp;<a href='#' onClick='doMsgDelete("+json['button'][i].id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='刪除' title='刪除' width='40' height='18' border='0' align='absbottom'></a>");
+                    }
+                 }
+             }
+             //放上ip
+          }else{
+            $("div#commentbutton_"+json['button'][i].id).html("<a href='#' onClick='doMsgEdit("+json['button'][i].id+","+json['page'].index+");return false;'> <img src='/_image/blog041.gif' alt='修改' title='修改' width='40' height='18' border='0' align='absbottom'></a>&nbsp;&nbsp;&nbsp;<a href='#' onClick='doMsgDelete("+json['button'][i].id+","+json['page'].index+");return false;')><img src='/_image/blog042.gif' alt='刪除' title='刪除' width='40' height='18' border='0' align='absbottom'></a>");
+          }
+              }
+        }
+        if (json['reload'].flage != "true"){
+            ff= location.href;
+            tt = ff.indexOf("#");
+            if(tt != -1){
+                o_index =ff.substring(0,tt);
+                location.href=o_index+"#message_header";
+            }else{
+                location.href=ff+"#message_header";
+            }
+        }
+	}
+
+    function getTrackBackShow(json){
+      $("div.item_trackBack").html(json['trackBack'].content);
+      if(json['button'].check != 1){
+       $("div.track_button").hide();
+      }
+      if(json['reload'].flage != "true"){
+         ff= location.href;
+         tt = ff.indexOf("#");
+          if(tt != -1){
+            o_index =ff.substring(0,tt);
+            location.href=o_index+"#trackBack_header";
+          }else{
+            location.href=ff+"#trackBack_header";
+          }
+       }
+    }
+    var pinnedSite = new XUI.Widgets.PinnedSite(
+        {
+          title:  "台灣百大景點",
+          author: "tolarku",
+          url: "http://blog.xuite.net/tolarku/blog/43392927"
+        }
+    );
+    pinnedSite.render();
+    $(function(){
+        TemplateJS.ad_bottom.preload({
+            blog_id: "728051",
+            blog_url: "http:\/\/blog.xuite.net\/tolarku\/blog\/",
+            article_id: 43392927,
+            label: 637995,
+            vip: -1
+        });
+    });
+</script></div></div><div id="linksLeft"><div class="extra17"></div><div class="extra18"></div><div class="extra19"></div><div class="extra20"></div>
+<div class="sidetitle"><div class="calendarTitle"><script language="javascript" type="text/javascript">document.write(g_sidebar.ItemCalendar);</script></div></div><div class="side"><div class="calendarSide"><input type="hidden" name="tester2" id="tester2" value=""/><input type="hidden" name="tester2_day" id="tester2_day" value="" size="3" maxLength="2" /><input type="hidden" name="tester2_month" id="tester2_month" value="" size="3" maxLength="2" /><input type="hidden" name="tester2_year" id="tester2_year" value="" size="5" maxLength="4"/><div id="cal_tester2_display"></div><div class="calendarbutton"><a id = "calendarbutton" href="javascript:articleList();"><img src='http://s.blog.xuite.net/_image/blog019.gif' width='63' height='20' border='0'></a></div></div></div>
+<script type="text/javascript" src="http://s.blog.xuite.net/_public/calendar_001.js?a=1"></script>
+<script language="javascript" type="text/javascript">
+	$(document).ready(function(){
+		buildCalendar();
+	});
+	var cal2;
+	function buildCalendar(){
+		cal2 = new Calendar ("cal2", "tester2", new Date(), 728051);
+		renderCalendar (cal2);
+		$.ajax({
+			type: "GET",
+			url: '/_theme/ArticleCalendarExp.php?yyyymm='+CurentTime()+'&bid=728051&ga='+(new Date()).getTime(),
+			dataType: 'json',
+			success: xxx
+		});
+	}
+	function xxx(json){
+		var myWrite = new Array();
+		var i = 0;
+		for( i =0; i < json.length; i++) {
+			myWrite[i] = new Array(json[i].EDATE,i);
+		}
+		$('#cal_tester2_display').css('align','center');
+		cal2.eventDates = myWrite;
+		cal2.selectEvent = function(eventId) {window.location.href=getUrl()+'?w='+eventId+'&st=d';};
+		$("a#calendarbutton").attr("href","javascript:articleList();");
+		$("a#calendarbutton").html("<img src='http://s.blog.xuite.net/_image/blog019.gif' width='63' height='20' border='0'>");
+		renderCalendar (cal2);
+	}
+
+	function articleList(){
+		$.ajax({
+			type: "GET",
+			url: '/_theme/ArticleListCalendarExp.php?bid=728051&ga='+(new Date()).getTime(),
+			dataType: 'json',
+			success: yyy
+		});
+	}
+	function yyy(json){
+		if(json != '0' && json != "" && json != null){
+			var i = 0
+			del = document.getElementById('cal_tester2_display').childNodes[0];
+			document.getElementById('cal_tester2_display').removeChild(del);
+			for( i =0; i < json.length; i++) {
+				li = document.createElement("li");
+				$('#cal_tester2_display').css("align","");
+				document.getElementById('cal_tester2_display').appendChild(li);
+				link = document.createElement("a");
+				link.href = "/tolarku/blog?st=m&w="+json[i].CREATETIME;
+				link.innerHTML = json[i].CREATETIME+'('+json[i].NUMS+' 篇)';
+				li.appendChild(link);
+			}
+		} else {
+			alert('目前文章列表沒有文章');
+		}
+		$("a#calendarbutton").attr("href","javascript:buildCalendar();");
+		$("a#calendarbutton").html("<img src='http://s.blog.xuite.net/_image/blog019_1.gif' width='63' height='20' border='0'>");
+	}
+	function  CurentTime(){
+		var  now  =  new  Date();
+		var  y  =  now.getFullYear();
+		var  m  =  now.getMonth()+1;
+		return(y+''+m);  
+	}
+	function getUrl(){
+		var url = location.href;
+		var root = url.split('/');
+		var root_de = root[4].split('?');
+		return (root[0]+"/"+root[1]+"/"+root[2]+"/"+root[3]+"/"+root_de[0]);
+	}
+</script><script language="javascript">var searchClickFlag='false';function Trim(TRIM_VALUE){if(TRIM_VALUE.length < 1){return"";}TRIM_VALUE = RTrim(TRIM_VALUE);TRIM_VALUE = LTrim(TRIM_VALUE);if(TRIM_VALUE==""){return "";}else{return TRIM_VALUE;}}function RTrim(VALUE){var w_space = String.fromCharCode(32);var v_length = VALUE.length;var strTemp = "";if(v_length < 0){return"";}var iTemp = v_length -1;while(iTemp > -1){if(VALUE.charAt(iTemp) == w_space){}else{strTemp = VALUE.substring(0,iTemp +1);break;}iTemp = iTemp-1;}return strTemp;}function LTrim(VALUE){var w_space = String.fromCharCode(32);if(v_length < 1){return"";}var v_length = VALUE.length;var strTemp = "";var iTemp = 0;while(iTemp < v_length){if(VALUE.charAt(iTemp) == w_space){}else{strTemp = VALUE.substring(iTemp,v_length);break;}iTemp = iTemp + 1;}return strTemp;}function blog_search_chk(){if(Trim(document.search_form.w.value)==""){alert('請輸入要查詢關鍵字!!');document.search_form.w.focus();return false;}else if(document.search_form.w.value.indexOf('*')!=-1){alert('請輸入要查詢關鍵字!');document.search_form.w.focus();return false;}else if(document.search_form.w.value==""){alert('請輸入要查詢關鍵字!');document.search_form.w.focus();return false;}else{return true;}}</script><div class="sidetitle"><div class="searchTitle"><script language="javascript" type="text/javascript">document.write(g_sidebar.ItemSearch);</script></div></div><div class="side"><div class="searchSide"><div class="searchbutton"><form name="search_form" action="/tolarku/blog" method="get"  onsubmit="javascript:return blog_search_chk();">關鍵字 <input name="w" type="text" class="inputForm" size="13" value="請輸入關鍵字"onBlur="if(this.value==''){this.value='';this.searchClickFlag=false;}"onFocus="this.value='';this.searchClickFlag=true;"><br /><input name="re" type="hidden" value="list"><input name="st" type="hidden" value="s"><input name="image" type="image"  src="http://s.blog.xuite.net/_image/blog024.gif" width="38" height="20" border="0"></form></div></div></div><div class="sidetitle"><div class="customTitle">Google Search</div></div><div class="side"><div class="customSide"><form style="margin-top:4px;margin-bottom:4px" method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+Google</br>
+<input type="hidden" name="sitesearch" value="http://blog.xuite.net/tolarku/blog" />
+<input alt="search" type="text" style="width:150px" name="as_q" size="20" />
+<input style="width:30px;font-weight:bold; cursor:pointer;" type="submit" value="Go"/>
+</form></div></div>
+
+<div class="sidetitle"><div class="categoryTitle"><script language="javascript" type="text/javascript">document.write(g_sidebar.ItemCategory);</script></div></div><div class="side"><div class="categorySide"><a href="javascript:void(0);" id="expandTree-6397">全部展開</a>|<a href="javascript:void(0);" id="collapseTree-6397">全部收合</a><div class="treeDiv" id="treeDiv-6397"></div></div></div>
+<script>
+(function(){
+	var SidebarTree = window.SidebarTree;
+	if(!SidebarTree){
+		SidebarTree = window.SidebarTree = {queue:[]};
+		$.ajax({
+			dataType: "script",
+			cache: true,
+			url: "http://s.blog.xuite.net/_public/js/BlogPlugins.SidebarTree.js"
+		})
+	}
+	SidebarTree.queue.push([
+		"6397",
+		{"leaf_789160":{"id":"789160","title":"\u8766\u5175\u87f9\u5c07(11)","order":-23,"link":"\/tolarku\/blog?st=c&p=1&w=789160"},"leaf_786979":{"id":"786979","title":"\u82b1\u9999\u8349\u5473(5)","order":-22,"link":"\/tolarku\/blog?st=c&p=1&w=786979"},"leaf_637994":{"id":"637994","title":"\u8f49\u8cbc(21)","order":-21,"link":"\/tolarku\/blog?st=c&p=1&w=637994"},"leaf_711303":{"id":"711303","title":"\u5e25\u8eca\u98a8\u96f2-\u9019\u500b\u7d55\u5c0d\u662f\u5922(9)","order":-20,"link":"\/tolarku\/blog?st=c&p=1&w=711303"},"leaf_708139":{"id":"708139","title":"\u96e3\u9053MTB\u4e5f\u662f\u5922(102)","order":-19,"link":"\/tolarku\/blog?st=c&p=1&w=708139"},"leaf_667436":{"id":"667436","title":"\u91cd\u578b\u6a5f\u8eca\u5922(22)","order":-18,"link":"\/tolarku\/blog?st=c&p=1&w=667436"},"leaf_637995":{"id":"637995","title":"\u751f\u6d3b\u8da3\u4e8b(97)","order":-17,"link":"\/tolarku\/blog?st=c&p=1&w=637995"},"leaf_637997":{"id":"637997","title":"\u7a0b\u5f0f\u8207\u8a8d\u8b49(72)","order":-16,"link":"\/tolarku\/blog?st=c&p=1&w=637997"},"leaf_637996":{"id":"637996","title":"3C\u79d1\u6280\u6d77(199)","order":-15,"link":"\/tolarku\/blog?st=c&p=1&w=637996"},"leaf_644402":{"id":"644402","title":"\u651d\u5f71\u6d6e\u96f2(67)","order":-14,"link":"\/tolarku\/blog?st=c&p=1&w=644402"},"leaf_637998":{"id":"637998","title":"\u65e5\u5b50\u5c31\u662f\u9019\u6a23(93)","order":-13,"link":"\/tolarku\/blog?st=c&p=1&w=637998"},"leaf_803802":{"id":"803802","title":"Google \u795e\u8e5f(38)","order":-12,"link":"\/tolarku\/blog?st=c&p=1&w=803802"},"leaf_808904":{"id":"808904","title":"\u7814\u8a0e\u8207\u5c55\u89bd\u8a0a\u606f(4)","order":-11,"link":"\/tolarku\/blog?st=c&p=1&w=808904"},"leaf_810108":{"id":"810108","title":"\u4eba\u751f\u91d1\u96de\u6bcd(1)","order":-10,"link":"\/tolarku\/blog?st=c&p=1&w=810108"},"leaf_955441":{"id":"955441","title":"\u6a5f\u5668\u4eba Robot(2)","order":-9,"link":"\/tolarku\/blog?st=c&p=1&w=955441"},"leaf_969232":{"id":"969232","title":"\u8a9e\u8a00\u5b78\u7fd2(8)","order":-8,"link":"\/tolarku\/blog?st=c&p=1&w=969232"},"leaf_1008620":{"id":"1008620","title":"\u6a21\u64ec\u98db\u884c(10)","order":-7,"link":"\/tolarku\/blog?st=c&p=1&w=1008620"},"leaf_1173306":{"id":"1173306","title":"Ubuntu-Solaris-BSD(73)","order":-6,"link":"\/tolarku\/blog?st=c&p=1&w=1173306"},"leaf_2040639":{"id":"2040639","title":"SQL \u6d77\u6d77(54)","order":-5,"link":"\/tolarku\/blog?st=c&p=1&w=2040639"},"leaf_2155280":{"id":"2155280","title":"Coding_\u65b0\u73a9\u610f(78)","order":-4,"link":"\/tolarku\/blog?st=c&p=1&w=2155280"},"leaf_2730158":{"id":"2730158","title":"\u7cfb\u7d71\u8207\u8cc7\u5b89(32)","order":-3,"link":"\/tolarku\/blog?st=c&p=1&w=2730158"},"leaf_3223644":{"id":"3223644","title":"VMWare(16)","order":-2,"link":"\/tolarku\/blog?st=c&p=1&w=3223644"},"leaf_6225861":{"id":"6225861","title":"Android+iOS(5)","order":-1,"link":"\/tolarku\/blog?st=c&p=1&w=6225861"},"leaf_0":{"id":"0","title":"\u672a\u5206\u985e(1)","order":0,"link":"\/tolarku\/blog?st=c&p=1&w=0"}},
+		{msg: {	emptyTree: "作者尚未新增文章喔！", emptyGroup: "作者尚未建立分類喔！" }, type:"category"}
+	]);
+	if(SidebarTree.processQueue){
+		SidebarTree.processQueue();
+	}
+})();
+</script>
+  <script language="javascript" type="text/javascript">
+   $(document).ready(function(){
+   		$.ajax({
+     type: "GET",
+     url: '/_theme/CountSideExp.php?bid=728051&ga='+(new Date()).getTime(),
+     dataType: 'json',
+     success: getCountSide
+    });
+
+ });
+ 
+   function getCountSide(json){
+     $("div#todayHit").html("今日人氣: "+json.now_hit);
+     $("div#totalHit").html("累積人氣: "+json.all_hit);
+   }
+   
+ </script>  
+<div class="sidetitle"><div class="countTitle"><script language="javascript" type="text/javascript">document.write(g_sidebar.ItemCounter);</script></div></div><div class="side"><div class="countSide"><div id="todayHit"></div><div id="totalHit"></div></div></div>
+<div class="sidetitle"><div class="hotArticleTitle"><script language="javascript" type="text/javascript">document.write(g_sidebar.ItemArticleHotList);</script></div></div><div class="side"><a href="javascript:;" onclick="getHot('history');">累積</a> | <a href="javascript:;" onclick="getHot('today');">今日</a><br /><div id="ah_loading">loading......</div><div class="hotArticleSide"></div></div><script type="text/javascript">var loginID = 'tolarku';var blogUrl = 'blog';var bid = '728051';$(document).ready(function() {getHot('history');});function getHot(hotType){$.ajax({type: "GET",url: "/_theme/HotArticleExp.php",data: "type="+hotType+"&bid="+bid,dataType: "json",success: function(json){$(".hotArticleSide").html('');for (var i = 0; i < json.length; i++) {var strLocation = location.href;if (strLocation.match("blog.xuite.net") != null)   {$(".hotArticleSide").append('<li><a href="/' + loginID + '/' + blogUrl + '/' + json[i].id + '">' + json[i].title + '</a></li>');}else    {$(".hotArticleSide").append('<li><a href="/' + json[i].id + '">' + json[i].title + '</a></li>');}}if( json.length == 0)$(".hotArticleSide").append('今天生意不好喲~~');else  {$("#ah_loading").hide();}}});}</script>
+<div id="sliceItemMessageList" class="hslice"> <h2 class="entry-title" style="display:none">tolarku's 新回應</h2><div class="entry-content"><div class="sidetitle"><div class="messageTitle"><script language="javascript" type="text/javascript">document.write(g_sidebar.ItemMessageList);</script></div></div><div class="side"><div id="new-comment" ><ol id="new-comment-list" >沒有新回應！</ol></div></div></div></div>
+<script language="javascript">
+$(document).ready(function(){   
+  $.ajax({
+       type: "GET",
+       url: "/_theme/MessageListExp.php?bid=728051&msg_list_nums=5&loginID=tolarku&url=blog&ga="+(new Date()).getTime(),
+       async: false,
+       dataType: 'json',
+       success: getMessageList
+  });
+}); 
+
+function getMessageList(json){
+  var messageSideContent = "";
+  if(json.length > 0){
+    for(var i=0;i< json.length;i++){
+      messageSideContent = messageSideContent + '<li class="new-comment-item"><a href="'+json[i].link+'" class="new-comment-avatar-c"><img width="30" height="30" class="new-comment-avatar" src="'+json[i].avatar+'" title="'+json[i].title+'"></a><a href="'+json[i].link+'" class="new-comment-content" >'+json[i].content+'</a><span class="new-comment-author-c" >by <span class="new-comment-author"><a href="'+json[i].profile_url+'">'+json[i].author_nickname+'</a></span></span><span class="new-comment-date"><span class="new-comment-month" >'+json[i].cm+'</span>/<span class="new-comment-day" >'+json[i].cd+'</span></span></li>';
+	}
+	$("#new-comment-list").html(messageSideContent);
+  }
+} 
+</script><script language="javascript">$(document).ready(function(){Score_Set(0);setblogRank(28,4)});function Score_Set(idx){if(idx < 0 || idx > 5)return;var i, line;line='';for(i=1;i <=idx;i++){line+='<img src="http://s.blog.xuite.net/_image/score_02.gif" width="15" height="14" border="0" onMouseOut="javascript:Score_Set(0);" onClick="javascript:Score_Send('+i+');">';}for(i=idx+1;i <=5;i++){line+='<img src="http://s.blog.xuite.net/_image/score_021.gif" width="15" height="14" border="0" onMouseOver="javascript:Score_Set('+i+');">';}document.getElementById('SelectScore').innerHTML=line;if(idx > 0){window.status='給 '+idx+' ';}else{window.status='';}}function Score_Send(score){if( document.cookie.indexOf("MemberSN") == -1){if(confirm("請先登入Xuite會員")){document.location.href="/_members/login.php?furl="+location.href;return;}else{return;}}if(!confirm('您已將這個日誌評分為 '+score+' 。按一下 [確定] 表示確認。')){return;}document.location.href='/_theme/doRank.php?type=blog&relate_id=728051&stars='+score;}function setblogRank(inMen,inStars){var Stars = document.all ? document.all('rank_average_stars') : document.getElementById('rank_average_stars');Stars.innerHTML = inStars;var Men = document.all ? document.all('rank_men') : document.getElementById('rank_men');Men.innerHTML = inMen;}</script><div class="sidetitle"><div class="rankTitle"><script language="javascript" type="text/javascript">document.write(g_sidebar.ItemRank);</script></div></div><div class="side"><div class="rankSide">平均分數：<span id="rank_average_stars">0</span> 顆星<br>投票人數：<span id="rank_men">0</span>  人<br>我要評分：<span id="SelectScore"></span></div></div><div class="sidetitle"><div class="customTitle">Country</div></div><div class="side"><div class="customSide"><a href="http://s03.flagcounter.com/more/atc"><img src="http://s03.flagcounter.com/count/atc/bg=FFFFFF/txt=000000/border=CCCCCC/columns=2/maxflags=10/viewers=0/labels=0/" alt="free counters" border="0"></a></div></div>
+<div class="sidetitle"><div class="customTitle">Google</div></div><div class="side"><div class="customSide"><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17066584-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div></div>
+<div class="sidetitle"><div class="customTitle">code</div></div><div class="side"><div class="customSide"><script type="text/javascript" src="http://alexgorbatchev.com.s3.amazonaws.com/pub/sh/3.0.83/scripts/shCore.js"></script>
+<link href="http://alexgorbatchev.com.s3.amazonaws.com/pub/sh/3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+<link href="http://alexgorbatchev.com.s3.amazonaws.com/pub/sh/3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://alexgorbatchev.com.s3.amazonaws.com/pub/sh/3.0.83/scripts/shBrushCSharp.js"></script></div></div>
+</div></div>
+<div id="footer"></div>
+<!-- ===配合首頁"誰拜訪我",變數來自header=== -->
+<script src="http://my.xuite.net/api/visit.php?key=aHR0cDovL2Jsb2cueHVpdGUubmV0L3RvbGFya3UvYmxvZw==" type="text/javascript"></script>
+<!-- ======================================= -->
+<script>
+    var footer = new XUI.Widgets.Footer(document.getElementById('footer'), {
+            ccLicense : 'cc-by-nc-sa',		// CC License (blog個人前台)(optional)
+            copyright : 'xuite',		// copyright, copyright : 'xuite' or 'hamicloud', 不填預設'xuite'(optional)
+        mobileURL : 'http://m.xuite.net/blog/tolarku/blog/43392927',		// 行動版連結 (自行帶入, 若hideMobile != 1, 預設給"http://m.xuite.net/")(optional)
+
+        showAbuse : 1,		// 檢舉公告, 個人前台才要showAbuse: 1 or 不填(optional)
+
+        hideMarketing : 0, 	// 刊登廣告, hideMarketing: 1 or 不填(optional)
+        hideDeveloper : 1,	// 開發者專區(API), 個人前台(personal)才要hideDeveloper:1 or 不填(optional)
+        hidePolicy : 0,	// 網站分級, hidePolicy:1 or 不填(optional)
+        hideMobile : 0		// 行動版, hideMobile:1 or 不填(optional)
+    });
+		
+    footer.render();
+	if(document.all) {
+		(function() {
+			if($('.blogbody').get(0)){
+				var oObjs = $('.blogbody').get(0).getElementsByTagName('object'),
+					n = oObjs.length;
+				for(var i = 0; i < n; ++i)
+					oObjs[i].removeAttribute('data');
+			}
+		})();
+	}
+    if (!($("#content_all").length > 0))    {
+        var pinnedSite = new XUI.Widgets.PinnedSite();
+        pinnedSite.render();    
+    }
+
+<!-- 相關文章等articlePlugins 不能被移除 -->
+$(".articleExt").show();	
+</script>
+<script src="http://p8u.hinet.net/js.ng/affiliate=xuiteblog&site=hinet&spacedesc=blogtabunit" type="text/javascript"></script>
+<!--END YAHOO! Right Media Tab Unit-->
+<script>
+(function(){
+    var breakTime = new XUI.Widgets.BreakTime(document.body, {
+        break_time: 120000
+    });
+    breakTime.render();
+})();
+</script>
+</div></div></body></html>
