@@ -19,8 +19,11 @@ strings = re.findall(pattern, rawfile.read())
 print "%r" % (strings)
 
 # Processing matched strings
+lineCount=0
 for string in strings:
-  print "Processing:%s" % (string)
+  lineCount = lineCount + 1
+  print "Processing[%d]:%s" % (lineCount, string)
+
   strtmp1 = string.lstrip('>')
   strtmp2 = strtmp1.rstrip('</strong></span></h2>')
   strtmp3 = strtmp2.lstrip().rstrip() # strip white space characters

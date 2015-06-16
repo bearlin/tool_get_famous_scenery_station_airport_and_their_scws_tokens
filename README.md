@@ -13,9 +13,14 @@ http://blog.xuite.net/tolarku/blog/43392927-%E5%8F%B0%E7%81%A3%E7%99%BE%E5%A4%A7
   
 [China stations]  
 https://zh.wikipedia.org/wiki/Category:%E4%B8%AD%E5%9C%8B%E9%90%B5%E8%B7%AF%E8%BB%8A%E7%AB%99  
+https://zh.wikipedia.org/wiki/Category:%E7%89%B9%E7%AD%89%E7%AB%99  
+https://zh.wikipedia.org/wiki/Category:%E4%B8%80%E7%AD%89%E7%AB%99  
   
 [Taiwan stations]  
 https://zh.wikipedia.org/wiki/Category:%E5%8F%B0%E7%81%A3%E9%90%B5%E8%B7%AF%E8%BB%8A%E7%AB%99  
+https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E7%81%A3%E9%90%B5%E8%B7%AF%E7%AE%A1%E7%90%86%E5%B1%80%E8%BB%8A%E7%AB%99  
+https://zh.wikipedia.org/wiki/%E7%89%B9%E7%AD%89%E7%AB%99_(%E5%8F%B0%E9%90%B5)  
+https://zh.wikipedia.org/wiki/%E4%B8%80%E7%AD%89%E7%AB%99_(%E5%8F%B0%E9%90%B5)  
   
 [China airports]  
 https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%9C%BA%E5%9C%BA%E5%88%97%E8%A1%A8  
