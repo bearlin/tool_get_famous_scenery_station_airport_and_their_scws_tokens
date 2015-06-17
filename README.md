@@ -29,3 +29,12 @@ https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%
 [Taiwan airports]  
 https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%A9%9F%E5%A0%B4  
 
+# Build:
+```sh
+./build.sh build-data
+```
+
+# Clean:
+```sh
+./build.sh clean
+```

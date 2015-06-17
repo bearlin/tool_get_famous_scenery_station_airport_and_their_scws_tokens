@@ -18,13 +18,14 @@ do
   if [ "$argument" == "debug" ]; then
     BUILD_TYPE="-DCMAKE_BUILD_TYPE=Debug"
   fi
+  if [ "$argument" == "build-data" ]; then
+    # gen_data.sh
+    chmod +x gen_data.sh
+    ./gen_data.sh
+  fi
 done
 
 # build
 echo "BUILD_TYPE=$BUILD_TYPE"
 mkdir -p build && cd build && rm -rf && cmake $BUILD_TYPE .. && make && cd -
-
-# gen_data.sh
-chmod +x gen_data.sh
-./gen_data.sh
 

@@ -24,13 +24,13 @@
 #define OUT_DIR "../outputs/taiwan/"
 #define IN_PATH_SCWS_XDB"taiwan/xdb/dict_cht.utf8.xdb"
 #define IN_PATH_SCWS_RULE"taiwan/xdb/fts-tc-r.tok"
-#define IN_PATH_S07_NORM_MAP "taiwan/xdb/fts-tc-n.tok"
+#define IN_PATH_NORM_MAP "taiwan/xdb/fts-tc-n.tok"
 #define IN_PATH_AIRPORTS "airports/taiwan_airports_raw.txt.dump"
 #define IN_PATH_SCENERY "scenery/taiwan_scenery_raw.txt.dump"
 #define IN_PATH_STATIONS "stations/taiwan_stations_raw.txt.dump"
-#define OUT_PATH_AIRPORTS "taiwan_airports_raw.txt.dump"
-#define OUT_PATH_SCENERY "taiwan_scenery_raw.txt.dump"
-#define OUT_PATH_STATIONS "taiwan_stations_raw.txt.dump"
+#define OUT_PATH_AIRPORTS "taiwan_airports.txt"
+#define OUT_PATH_SCENERY "taiwan_scenery.txt"
+#define OUT_PATH_STATIONS "taiwan_stations.txt"
 #else //USE_TC
 #define IN_DIR "../inputs/"
 #define OUT_DIR "../outputs/china/"
@@ -40,9 +40,9 @@
 #define IN_PATH_AIRPORTS "airports/china_airports_raw.txt.dump"
 #define IN_PATH_SCENERY "scenery/china_scenery_raw.txt.dump"
 #define IN_PATH_STATIONS "stations/china_stations_raw.txt.dump"
-#define OUT_PATH_AIRPORTS "china_airports_raw.txt.dump"
-#define OUT_PATH_SCENERY "china_scenery_raw.txt.dump"
-#define OUT_PATH_STATIONS "china_stations_raw.txt.dump"
+#define OUT_PATH_AIRPORTS "china_airports.txt"
+#define OUT_PATH_SCENERY "china_scenery.txt"
+#define OUT_PATH_STATIONS "china_stations.txt"
 #endif //USE_TC
 
 char tmp_buf1[MAX_LINE_SIZE];
