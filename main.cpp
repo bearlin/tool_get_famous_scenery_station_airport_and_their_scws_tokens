@@ -14,34 +14,7 @@
 #include "xdict.h"
 #include "scws.h"
 
-/* #define USE_TC */
 #define _CONVERT_NORMALIZE_
-
-/* #ifdef USE_TC */
-/* #define IN_DIR "../inputs/" */
-/* #define OUT_DIR "../outputs/taiwan/" */
-/* #define IN_PATH_SCWS_XDB "taiwan/xdb/dict_cht.utf8.xdb" */
-/* #define IN_PATH_SCWS_RULE "taiwan/xdb/fts-tc-r.tok" */
-/* #define IN_PATH_NORM_MAP "taiwan/xdb/fts-tc-n.tok" */
-/* #define IN_PATH_AIRPORTS "airports/taiwan_airports_raw.txt.dump" */
-/* #define IN_PATH_SCENERY "scenery/taiwan_scenery_raw.txt.dump" */
-/* #define IN_PATH_STATIONS "stations/taiwan_stations_raw.txt.dump" */
-/* #define OUT_PATH_AIRPORTS "taiwan_airports.csv" */
-/* #define OUT_PATH_SCENERY "taiwan_scenery.csv" */
-/* #define OUT_PATH_STATIONS "taiwan_stations.csv" */
-/* #else //USE_TC */
-/* #define IN_DIR "../inputs/" */
-/* #define OUT_DIR "../outputs/china/" */
-/* #define IN_PATH_SCWS_XDB"china/xdb/dict.utf8.xdb" */
-/* #define IN_PATH_SCWS_RULE"china/xdb/fts-sc-r.tok" */
-/* #define IN_PATH_NORM_MAP "china/xdb/fts-sc-n.tok" */
-/* #define IN_PATH_AIRPORTS "airports/china_airports_raw.txt.dump" */
-/* #define IN_PATH_SCENERY "scenery/china_scenery_raw.txt.dump" */
-/* #define IN_PATH_STATIONS "stations/china_stations_raw.txt.dump" */
-/* #define OUT_PATH_AIRPORTS "china_airports.csv" */
-/* #define OUT_PATH_SCENERY "china_scenery.csv" */
-/* #define OUT_PATH_STATIONS "china_stations.csv" */
-/* #endif //USE_TC */
 
 std::string IN_DIR = "";
 std::string OUT_DIR = "";
@@ -342,13 +315,13 @@ int main(int argc, char* argv[])
   }
   std::cout << "mapType: " << mapType << std::endl;
 
+  IN_DIR = "../inputs/";
+  IN_PATH_SCWS_XDB = "taiwan/xdb/dict.utf8.official.xdb";
+  IN_PATH_SCWS_RULE = "taiwan/xdb/rules.utf8.modified.ini";
+  IN_PATH_NORM_MAP = "taiwan/xdb/normalize.mapping.table.ini";
   if (mapType == std::string("taiwan"))
   {
-    IN_DIR = "../inputs/";
     OUT_DIR = "../outputs/taiwan/";
-    IN_PATH_SCWS_XDB = "taiwan/xdb/dict_cht.utf8.xdb";
-    IN_PATH_SCWS_RULE = "taiwan/xdb/fts-tc-r.tok";
-    IN_PATH_NORM_MAP = "taiwan/xdb/fts-tc-n.tok";
     IN_PATH_AIRPORTS = "airports/taiwan_airports_raw.txt.dump";
     IN_PATH_SCENERY = "scenery/taiwan_scenery_raw.txt.dump";
     IN_PATH_STATIONS = "stations/taiwan_stations_raw.txt.dump";
@@ -358,11 +331,7 @@ int main(int argc, char* argv[])
   }
   else
   {
-    IN_DIR = "../inputs/";
     OUT_DIR = "../outputs/china/";
-    IN_PATH_SCWS_XDB = "china/xdb/dict.utf8.xdb";
-    IN_PATH_SCWS_RULE = "china/xdb/fts-sc-r.tok";
-    IN_PATH_NORM_MAP = "china/xdb/fts-sc-n.tok";
     IN_PATH_AIRPORTS = "airports/china_airports_raw.txt.dump";
     IN_PATH_SCENERY = "scenery/china_scenery_raw.txt.dump";
     IN_PATH_STATIONS = "stations/china_stations_raw.txt.dump";

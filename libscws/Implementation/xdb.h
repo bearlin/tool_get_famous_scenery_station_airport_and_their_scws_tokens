@@ -69,8 +69,6 @@ void *xdb_get(xdb_t x, const char *key, unsigned int *vlen);
 void xdb_draw(xdb_t x);
 #endif
 
-void xdb_to_plain(xdb_t x, const char *fpath);
-
 /* return the xtree pointer */
 xtree_t xdb_to_xtree(xdb_t x, xtree_t xt);
 

@@ -18,13 +18,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #ifndef WIN32
-#include <sys/file.h>
 #	include <unistd.h>
 #endif
 #include <string.h>
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+
+#ifdef HAVE_FLOCK
+#   include <sys/file.h>
+#endif
 
 #ifdef HAVE_MMAP
 #   include <sys/mman.h>
@@ -458,68 +461,6 @@ void xdb_draw(xdb_t x)
 	}
 }
 #endif
-
-static void _xdb_node_to_plain(xdb_t x, xptr_t ptr, int depth, FILE *fp)
-{
-	// draw the node data
-	if (ptr->len)
-	{
-        struct
-        {
-        	float tf;
-        	float idf;
-        	unsigned char flag;
-        	char attr[3];
-        }	word;
-
-		unsigned char buf[XDB_MAXKLEN + 18];		// greater than 18 = sizeof(xptr_st)*2+1
-		int vlen, voff;
-
-		vlen = sizeof(buf) - 1;
-		if (vlen > ptr->len)
-			vlen = ptr->len;
-
-		_xdb_read_data(x, buf, ptr->off, vlen);
-		vlen = ptr->len - buf[16] - 17;
-		voff = ptr->off + buf[16] + 17;
-		_xdb_read_data(x, &word, voff, vlen);
-
-		fprintf(fp, "%.*s  %f %f %s\n", buf[16], buf+17, word.tf, word.idf, word.attr);
-
-		depth++;
-
-		// draw the left & right;
-		memcpy(ptr, buf, sizeof(xptr_st));
-		_xdb_node_to_plain(x, ptr, depth, fp);
-
-		memcpy(ptr, buf + sizeof(xptr_st), sizeof(xptr_st));
-		_xdb_node_to_plain(x, ptr, depth, fp);
-	}
-}
-void xdb_to_plain(xdb_t x, const char *fpath)
-{
-    int i;
-    FILE *fp = NULL;
-
-	xptr_st ptr;
-
-	if (!x) return;
-
-    fp = fopen(fpath, "w");
- 
-    if(!fp) return;
-
-	xdb_version(x);
-	for (i = 0; i < x->prime; i++)
-	{		
-		_xdb_read_data(x, &ptr, i * sizeof(xptr_st) + sizeof(struct xdb_header), sizeof(xptr_st));
-		_xdb_node_to_plain(x, &ptr, 0, fp);
-	}
-
-    fclose(fp);
-
-    printf("-----------------------------------------\n");
-}
 
 /* optimize the xdb */
 typedef struct xdb_cmper
