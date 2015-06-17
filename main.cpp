@@ -15,22 +15,22 @@
 #include "scws.h"
 
 #define USE_TC
-//#define _CONVERT_NORMALIZE_
+#define _CONVERT_NORMALIZE_
 
 #define MAX_LINE_SIZE (1024)
 
 #ifdef USE_TC
 #define IN_DIR "../inputs/"
 #define OUT_DIR "../outputs/taiwan/"
-#define IN_PATH_SCWS_XDB"taiwan/xdb/dict_cht.utf8.xdb"
-#define IN_PATH_SCWS_RULE"taiwan/xdb/fts-tc-r.tok"
+#define IN_PATH_SCWS_XDB "taiwan/xdb/dict_cht.utf8.xdb"
+#define IN_PATH_SCWS_RULE "taiwan/xdb/fts-tc-r.tok"
 #define IN_PATH_NORM_MAP "taiwan/xdb/fts-tc-n.tok"
 #define IN_PATH_AIRPORTS "airports/taiwan_airports_raw.txt.dump"
 #define IN_PATH_SCENERY "scenery/taiwan_scenery_raw.txt.dump"
 #define IN_PATH_STATIONS "stations/taiwan_stations_raw.txt.dump"
-#define OUT_PATH_AIRPORTS "taiwan_airports.txt"
-#define OUT_PATH_SCENERY "taiwan_scenery.txt"
-#define OUT_PATH_STATIONS "taiwan_stations.txt"
+#define OUT_PATH_AIRPORTS "taiwan_airports.csv"
+#define OUT_PATH_SCENERY "taiwan_scenery.csv"
+#define OUT_PATH_STATIONS "taiwan_stations.csv"
 #else //USE_TC
 #define IN_DIR "../inputs/"
 #define OUT_DIR "../outputs/china/"
@@ -40,9 +40,9 @@
 #define IN_PATH_AIRPORTS "airports/china_airports_raw.txt.dump"
 #define IN_PATH_SCENERY "scenery/china_scenery_raw.txt.dump"
 #define IN_PATH_STATIONS "stations/china_stations_raw.txt.dump"
-#define OUT_PATH_AIRPORTS "china_airports.txt"
-#define OUT_PATH_SCENERY "china_scenery.txt"
-#define OUT_PATH_STATIONS "china_stations.txt"
+#define OUT_PATH_AIRPORTS "china_airports.csv"
+#define OUT_PATH_SCENERY "china_scenery.csv"
+#define OUT_PATH_STATIONS "china_stations.csv"
 #endif //USE_TC
 
 char tmp_buf1[MAX_LINE_SIZE];
@@ -190,6 +190,30 @@ int main(int argc, char* argv[])
 
   size_t readSize = 0;
 
+#ifdef _CONVERT_NORMALIZE_
+  int szLine_Len;
+  char* pKey=0;
+
+  int iEnableHPNormalize = 0;
+  std::string iNormText;
+
+  file_path = IN_DIR;
+  file_path += IN_PATH_NORM_MAP;
+  if (!CHomophoneNormalizer_Init(file_path.c_str()))
+  {
+    printf("CHomophoneNormalizer_Init err:%s\n", file_path.c_str());
+    iEnableHPNormalize = 0;
+  }
+  else
+  {
+    printf("CHomophoneNormalizer_Init OK\n");
+    iEnableHPNormalize = 1;
+  }
+
+  iNormText.resize(32);
+
+#endif //_CONVERT_NORMALIZE_
+
   printf("Stage 1: Collect token list from \"input raw file\" to token_map.\n");
   char szTmp[MAX_LINE_SIZE];
   scws_t s;
@@ -228,9 +252,15 @@ int main(int argc, char* argv[])
   printf("fp_s01_raw:%s\n", file_path.c_str());
   
   std::ofstream ofs;
+  std::string normalizedTokens;
   file_path = OUT_DIR;
   file_path += OUT_PATH_AIRPORTS;
   ofs.open(file_path.c_str(), std::ofstream::out);
+
+  // Write cvs header
+  std::cout << "InputString, Expect_Non_Normalized, Expect_Normalized\n";
+  ofs << "InputString, Expect_Non_Normalized, Expect_Normalized\n";
+
   while( NULL != fgets(line_text, MAX_LINE_SIZE, fp_s01_raw) ) 
   {
     line_no++;
@@ -243,11 +273,16 @@ int main(int argc, char* argv[])
     text_size = 0;
     memset(text,0, sizeof(text) );
 
+    // Copy input string to new buffer and strip newline characters
     pline = line_text;
     while( ('\r' != *pline) && ( '\n' != *pline) && ( 0 != *pline) )
       text[text_size++] = *(pline++);
 
-    printf("%s\n", text);
+    // Clear normailzed tokens buffer
+    normalizedTokens.clear();
+
+    std::cout << text << ",";
+    ofs << text << ",";
     scws_send_text(s, text, text_size);
     while (res = cur = scws_get_result(s))
     {
@@ -256,14 +291,55 @@ int main(int argc, char* argv[])
         memset(szTmp, 0, sizeof(szTmp));
         memcpy(szTmp, &text[cur->off], cur->len);
 
-        ofs << szTmp << '\n';
-        std::cout << szTmp << '\n';
+        std::cout << szTmp << " ";
+        ofs << szTmp << " ";
+
+        // Convert this token to normalized form
+        pKey = szTmp;
+        if(iEnableHPNormalize)
+        {
+          size_t res_len = CHomophoneNormalizer_Normalize(pKey, &iNormText[0], iNormText.capacity());
+          
+          if(res_len != 0) // Buffer size is too small
+          {
+            //printf("@@@ Buffer size is too small, pKey length=%d,  iNormText.size()=%d,  iNormText.capacity()=%d\n", res_len, iNormText.size(), iNormText.capacity());
+            CFtsTokenizerExtChinese_ReserveStringCapacity(iNormText, res_len, KNormBufUnitSize);
+
+            if((res_len = CHomophoneNormalizer_Normalize(pKey, &iNormText[0], iNormText.capacity())))
+            {
+              printf("Normalize error=%ld\n", res_len);
+              return 0;
+            }
+          }
+          //printf("iNormText.c_str():%s\n", iNormText.c_str());
+          //printf("strlen(iNormText.c_str()):%d\n", strlen(iNormText.c_str()));
+
+          memset(tmp_buf1, 0, sizeof(tmp_buf1));
+          //printf("AAA Un-Normali str:%s", tmp_buf1);
+          strncpy(tmp_buf1, iNormText.c_str(), strlen(iNormText.c_str()));
+          //printf("BBB Normalized str:%s", tmp_buf1);
+
+          // Save this normalized token
+          normalizedTokens += tmp_buf1;
+          normalizedTokens += " ";
+        }
 
         cur = cur->next;
       }
 
       scws_free_result(res);
     }
+
+    // Append normalizedTokens
+    std::cout << ",";
+    ofs << ",";
+
+    ofs << normalizedTokens;
+    std::cout << normalizedTokens;
+
+    // Next line.
+    ofs << '\n';
+    std::cout << "\n";
   }
   scws_free(s);
   printf("Total Parsing Line(%d)....\n", line_no );
@@ -271,115 +347,6 @@ int main(int argc, char* argv[])
   ofs.close();
   fclose(fp_s01_raw);
   //------------------------------------------------------------------------------------------------
-
-#ifdef _CONVERT_NORMALIZE_
-  // Stage 7: Convert results to normalized form.
-  //------------------------------------------------------------------------------------------------
-#if 1
-  printf("Stage 7: Convert results to normalized form.\n");
-  FILE *fp_in_s07_optimized_full;
-  FILE *fp_out_s07_normalized_full;
-  int szLine_Len;
-  char* pKey=0;
-
-  int iEnableHPNormalize = 0;
-  std::string iNormText;
-
-  file_path = DATA_DIR;
-  file_path += IN_PATH_S07_NORM_MAP;
-  if (!CHomophoneNormalizer_Init(file_path.c_str()))
-  {
-    printf("CHomophoneNormalizer_Init err:%s\n", file_path.c_str());
-    iEnableHPNormalize = 0;
-  }
-  else
-  {
-    printf("CHomophoneNormalizer_Init OK\n");
-    iEnableHPNormalize = 1;
-  }
-  
-  file_path = DATA_DIR;
-  file_path += OUT_PATH_S06_SUFFIX_FULL;
-  fp_in_s07_optimized_full = fopen(file_path.c_str(), "r");
-  if (NULL == fp_in_s07_optimized_full)
-  {
-    printf("fp_in_s07_optimized_full err:%s\n", file_path.c_str());
-    return -1;
-  }
-  printf("fp_in_s07_optimized_full:%s\n", file_path.c_str());
-
-  file_path = DATA_DIR;
-  file_path += OUT_PATH_S07_SUFFIX_FULL_NOR;
-  fp_out_s07_normalized_full = fopen(file_path.c_str(), "w");
-  if (NULL == fp_out_s07_normalized_full)
-  {
-    printf("fp_out_s07_normalized_full err:%s\n", file_path.c_str());
-    return -1;
-  }
-  printf("fp_out_s07_normalized_full:%s\n", file_path.c_str());
-
-  // Start converting.
-  iNormText.resize(32);
-  while (fgets(tmp_buf1, sizeof(tmp_buf1), fp_in_s07_optimized_full)) 
-  {
-    line_no++;
-    if (0 == line_no%1000)
-      printf("Converting Line(%d)....\n", line_no );
-
-    if ((tmp_buf1[0] == '#') || (tmp_buf1[0] == ';'))
-      continue;
-
-    strncpy(tmp_buf, tmp_buf1, sizeof(tmp_buf));
-    szLine_Len = strlen(tmp_buf);
-
-    if( 0 == szLine_Len )
-      continue;
-
-    pKey = strtok(tmp_buf, "\t ");
-    if (pKey) 
-    {
-      //printf("Converting [%s] of %s", pKey, tmp_buf1 );
-
-      // Normalizer
-      //iNormText.resize(32);
-      if(iEnableHPNormalize)
-      {
-        size_t res_len = CHomophoneNormalizer_Normalize(pKey, &iNormText[0], iNormText.capacity());
-        
-        if(res_len != 0) // Buffer size is too small
-        {
-          //printf("@@@ Buffer size is too small, pKey length=%d,  iNormText.size()=%d,  iNormText.capacity()=%d\n", res_len, iNormText.size(), iNormText.capacity());
-          CFtsTokenizerExtChinese_ReserveStringCapacity(iNormText, res_len, KNormBufUnitSize);
-
-          if((res_len = CHomophoneNormalizer_Normalize(pKey, &iNormText[0], iNormText.capacity())))
-          {
-            printf("Normalize error=%ld\n", res_len);
-            return 0;
-          }
-        }
-        //printf("iNormText.c_str():%s\n", iNormText.c_str());
-        //printf("strlen(iNormText.c_str()):%d\n", strlen(iNormText.c_str()));
-
-        //printf("AAA Un-Normali str:%s", tmp_buf1);
-        strncpy(tmp_buf1, iNormText.c_str(), strlen(iNormText.c_str()));
-        //printf("BBB Normalized str:%s", tmp_buf1);
-
-        //log to file.
-        fprintf(fp_out_s07_normalized_full, "%s", tmp_buf1);
-      }
-    }
-    else
-    {
-      printf("Failed converting:%s", tmp_buf1 );
-    }
-  }
-  printf("Total converting Line(%d)....\n", line_no );
-
-  fclose(fp_in_s07_optimized_full);
-  fclose(fp_out_s07_normalized_full);
-#endif
-  //------------------------------------------------------------------------------------------------
-#endif //_CONVERT_NORMALIZE_
 
   return 0;
 }

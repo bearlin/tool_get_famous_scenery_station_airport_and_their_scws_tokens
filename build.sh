@@ -8,8 +8,8 @@ for argument in $@
 do
   if [ "$argument" == "clean" ]; then
     rm -rf build
-    rm -rf ./outputs/taiwan/*.txt
-    rm -rf ./outputs/china/*.txt
+    rm -rf ./outputs/taiwan/*.csv
+    rm -rf ./outputs/china/*.csv
     rm inputs/stations/*.dump
     rm inputs/scenery/*.dump
     rm inputs/airports/*.dump
