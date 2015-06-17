@@ -8,8 +8,11 @@ for argument in $@
 do
   if [ "$argument" == "clean" ]; then
     rm -rf build
-    rm -rf ./outputs/taiwan/*.dump
-    rm -rf ./outputs/china/*.dump
+    rm -rf ./outputs/taiwan/*.txt
+    rm -rf ./outputs/china/*.txt
+    rm inputs/stations/*.dump
+    rm inputs/scenery/*.dump
+    rm inputs/airports/*.dump
     exit 0;
   fi
   if [ "$argument" == "debug" ]; then
@@ -20,3 +23,8 @@ done
 # build
 echo "BUILD_TYPE=$BUILD_TYPE"
 mkdir -p build && cd build && rm -rf && cmake $BUILD_TYPE .. && make && cd -
+
+# gen_data.sh
+chmod +x gen_data.sh
+./gen_data.sh
+
