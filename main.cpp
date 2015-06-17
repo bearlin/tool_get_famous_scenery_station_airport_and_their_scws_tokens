@@ -319,7 +319,7 @@ int main(int argc, char* argv[])
   if (mapType == std::string("taiwan"))
   {
     OUT_DIR = "../outputs/taiwan/";
-    IN_PATH_SCWS_XDB = "taiwan/xdb/dict.utf8.official.xdb";
+    IN_PATH_SCWS_XDB = "taiwan/xdb/optimized.xdb";
     IN_PATH_SCWS_RULE = "taiwan/xdb/rules.utf8.modified.ini";
     IN_PATH_NORM_MAP = "taiwan/xdb/normalize.mapping.table.ini";
     IN_PATH_AIRPORTS = "airports/taiwan_airports_raw.txt.dump";
@@ -332,7 +332,7 @@ int main(int argc, char* argv[])
   else
   {
     OUT_DIR = "../outputs/china/";
-    IN_PATH_SCWS_XDB = "china/xdb/dict.utf8.official.xdb";
+    IN_PATH_SCWS_XDB = "china/xdb/optimized.xdb";
     IN_PATH_SCWS_RULE = "china/xdb/rules.utf8.modified.ini";
     IN_PATH_NORM_MAP = "china/xdb/normalize.mapping.table.ini";
     IN_PATH_AIRPORTS = "airports/china_airports_raw.txt.dump";
