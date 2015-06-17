@@ -14,38 +14,51 @@
 #include "xdict.h"
 #include "scws.h"
 
-#define USE_TC
+/* #define USE_TC */
 #define _CONVERT_NORMALIZE_
+
+/* #ifdef USE_TC */
+/* #define IN_DIR "../inputs/" */
+/* #define OUT_DIR "../outputs/taiwan/" */
+/* #define IN_PATH_SCWS_XDB "taiwan/xdb/dict_cht.utf8.xdb" */
+/* #define IN_PATH_SCWS_RULE "taiwan/xdb/fts-tc-r.tok" */
+/* #define IN_PATH_NORM_MAP "taiwan/xdb/fts-tc-n.tok" */
+/* #define IN_PATH_AIRPORTS "airports/taiwan_airports_raw.txt.dump" */
+/* #define IN_PATH_SCENERY "scenery/taiwan_scenery_raw.txt.dump" */
+/* #define IN_PATH_STATIONS "stations/taiwan_stations_raw.txt.dump" */
+/* #define OUT_PATH_AIRPORTS "taiwan_airports.csv" */
+/* #define OUT_PATH_SCENERY "taiwan_scenery.csv" */
+/* #define OUT_PATH_STATIONS "taiwan_stations.csv" */
+/* #else //USE_TC */
+/* #define IN_DIR "../inputs/" */
+/* #define OUT_DIR "../outputs/china/" */
+/* #define IN_PATH_SCWS_XDB"china/xdb/dict.utf8.xdb" */
+/* #define IN_PATH_SCWS_RULE"china/xdb/fts-sc-r.tok" */
+/* #define IN_PATH_NORM_MAP "china/xdb/fts-sc-n.tok" */
+/* #define IN_PATH_AIRPORTS "airports/china_airports_raw.txt.dump" */
+/* #define IN_PATH_SCENERY "scenery/china_scenery_raw.txt.dump" */
+/* #define IN_PATH_STATIONS "stations/china_stations_raw.txt.dump" */
+/* #define OUT_PATH_AIRPORTS "china_airports.csv" */
+/* #define OUT_PATH_SCENERY "china_scenery.csv" */
+/* #define OUT_PATH_STATIONS "china_stations.csv" */
+/* #endif //USE_TC */
+
+std::string IN_DIR = "";
+std::string OUT_DIR = "";
+std::string IN_PATH_SCWS_XDB = "";
+std::string IN_PATH_SCWS_RULE = "";
+std::string IN_PATH_NORM_MAP = "";
+std::string IN_PATH_AIRPORTS = "";
+std::string IN_PATH_SCENERY = "";
+std::string IN_PATH_STATIONS = "";
+std::string OUT_PATH_AIRPORTS = "";
+std::string OUT_PATH_SCENERY = "";
+std::string OUT_PATH_STATIONS = "";
 
 #define MAX_LINE_SIZE (1024)
 
-#ifdef USE_TC
-#define IN_DIR "../inputs/"
-#define OUT_DIR "../outputs/taiwan/"
-#define IN_PATH_SCWS_XDB "taiwan/xdb/dict_cht.utf8.xdb"
-#define IN_PATH_SCWS_RULE "taiwan/xdb/fts-tc-r.tok"
-#define IN_PATH_NORM_MAP "taiwan/xdb/fts-tc-n.tok"
-#define IN_PATH_AIRPORTS "airports/taiwan_airports_raw.txt.dump"
-#define IN_PATH_SCENERY "scenery/taiwan_scenery_raw.txt.dump"
-#define IN_PATH_STATIONS "stations/taiwan_stations_raw.txt.dump"
-#define OUT_PATH_AIRPORTS "taiwan_airports.csv"
-#define OUT_PATH_SCENERY "taiwan_scenery.csv"
-#define OUT_PATH_STATIONS "taiwan_stations.csv"
-#else //USE_TC
-#define IN_DIR "../inputs/"
-#define OUT_DIR "../outputs/china/"
-#define IN_PATH_SCWS_XDB"china/xdb/dict.utf8.xdb"
-#define IN_PATH_SCWS_RULE"china/xdb/fts-sc-r.tok"
-#define IN_PATH_NORM_MAP "china/xdb/fts-sc-n.tok"
-#define IN_PATH_AIRPORTS "airports/china_airports_raw.txt.dump"
-#define IN_PATH_SCENERY "scenery/china_scenery_raw.txt.dump"
-#define IN_PATH_STATIONS "stations/china_stations_raw.txt.dump"
-#define OUT_PATH_AIRPORTS "china_airports.csv"
-#define OUT_PATH_SCENERY "china_scenery.csv"
-#define OUT_PATH_STATIONS "china_stations.csv"
-#endif //USE_TC
-
 char tmp_buf1[MAX_LINE_SIZE];
+static int iEnableHPNormalize = 0;
 
 #ifdef _CONVERT_NORMALIZE_
 // Length of multibyte character from first byte of Utf8
@@ -169,52 +182,11 @@ void CFtsTokenizerExtChinese_ReserveStringCapacity(std::string& aString, size_t 
 }
 #endif //_CONVERT_NORMALIZE_
 
-int main(int argc, char* argv[])
+bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, std::string outputPath)
 {
-  std::string file_path;
-  FILE *fp_xdb;
-  char tmp_buf[MAX_LINE_SIZE];
-  std::string token_item;
-  int token_idx = 0;
-  
   int line_no=0;
   char* pline=0;
 
-  std::string tmp_line;
-
-  std::size_t pos;
-  std::string str1;
-  std::string str2;
-  int idx_tmp = 0;
-  int idx_max = 0;
-
-  size_t readSize = 0;
-
-#ifdef _CONVERT_NORMALIZE_
-  int szLine_Len;
-  char* pKey=0;
-
-  int iEnableHPNormalize = 0;
-  std::string iNormText;
-
-  file_path = IN_DIR;
-  file_path += IN_PATH_NORM_MAP;
-  if (!CHomophoneNormalizer_Init(file_path.c_str()))
-  {
-    printf("CHomophoneNormalizer_Init err:%s\n", file_path.c_str());
-    iEnableHPNormalize = 0;
-  }
-  else
-  {
-    printf("CHomophoneNormalizer_Init OK\n");
-    iEnableHPNormalize = 1;
-  }
-
-  iNormText.resize(32);
-
-#endif //_CONVERT_NORMALIZE_
-
-  printf("Stage 1: Collect token list from \"input raw file\" to token_map.\n");
   char szTmp[MAX_LINE_SIZE];
   scws_t s;
   scws_res_t res, cur;
@@ -223,45 +195,42 @@ int main(int argc, char* argv[])
   char line_text[MAX_LINE_SIZE];
   int text_size;
 
+  FILE* fp_input;
+  std::ofstream ofs;
+
+#ifdef _CONVERT_NORMALIZE_
+  char* pKey = NULL;
+  std::string normalizedTokens;
+  std::string iNormText;
+
+  iNormText.resize(32);
+#endif //_CONVERT_NORMALIZE_
+
   if (!(s = scws_new()))
   {
     printf("ERROR: cann't init the scws!\n");
     return -1;
   }
-
   scws_set_charset(s, "utf8");
+  ret = scws_set_dict(s, xdbPath.c_str(), SCWS_XDICT_XDB);
+  scws_set_rule(s, rulePath.c_str() );
 
-  file_path = IN_DIR;
-  file_path += IN_PATH_SCWS_XDB;
-  ret = scws_set_dict(s, file_path.c_str(), SCWS_XDICT_XDB);
-
-  file_path = IN_DIR;
-  file_path += IN_PATH_SCWS_RULE;
-  scws_set_rule(s, file_path.c_str() );
-
-  FILE *fp_s01_raw;
-  file_path = IN_DIR;
-  file_path += IN_PATH_AIRPORTS;
-  printf("input src:%s\n", file_path.c_str());
-  fp_s01_raw = fopen(file_path.c_str(), "r");
-  if (NULL == fp_s01_raw)
+  printf("input src:%s\n", inputPath.c_str());
+  fp_input = fopen(inputPath.c_str(), "r");
+  if (NULL == fp_input)
   {
-    printf("fp_s01_raw err:%s\n", file_path.c_str());
+    printf("fp_input err:%s\n", inputPath.c_str());
     return -1;
   }
-  printf("fp_s01_raw:%s\n", file_path.c_str());
+  printf("fp_input:%s\n", inputPath.c_str());
   
-  std::ofstream ofs;
-  std::string normalizedTokens;
-  file_path = OUT_DIR;
-  file_path += OUT_PATH_AIRPORTS;
-  ofs.open(file_path.c_str(), std::ofstream::out);
+  ofs.open(outputPath.c_str(), std::ofstream::out);
 
   // Write cvs header
   std::cout << "InputString, Expect_Non_Normalized, Expect_Normalized\n";
   ofs << "InputString, Expect_Non_Normalized, Expect_Normalized\n";
 
-  while( NULL != fgets(line_text, MAX_LINE_SIZE, fp_s01_raw) ) 
+  while( NULL != fgets(line_text, MAX_LINE_SIZE, fp_input) ) 
   {
     line_no++;
     if (0 == line_no%10)
@@ -295,6 +264,7 @@ int main(int argc, char* argv[])
         ofs << szTmp << " ";
 
         // Convert this token to normalized form
+      #ifdef _CONVERT_NORMALIZE_
         pKey = szTmp;
         if(iEnableHPNormalize)
         {
@@ -323,6 +293,7 @@ int main(int argc, char* argv[])
           normalizedTokens += tmp_buf1;
           normalizedTokens += " ";
         }
+      #endif //_CONVERT_NORMALIZE_
 
         cur = cur->next;
       }
@@ -345,8 +316,78 @@ int main(int argc, char* argv[])
   printf("Total Parsing Line(%d)....\n", line_no );
 
   ofs.close();
-  fclose(fp_s01_raw);
-  //------------------------------------------------------------------------------------------------
+  fclose(fp_input);
+}
+
+
+int main(int argc, char* argv[])
+{
+  std::string file_path_norm;
+  std::string mapType = "taiwan";
+
+  if (argc < 2)
+  {
+    std::cout << "Usage : ./scws_get_tokens [taiwan|china]" << std::endl;
+    return 0;
+  }
+  else
+  {
+    mapType = argv[1];
+  }
+
+  if ( (mapType != std::string("taiwan")) && (mapType != std::string("china")) )
+  {
+    std::cout << "Unknow mapType: " << mapType << std::endl;
+    return 0;
+  }
+  std::cout << "mapType: " << mapType << std::endl;
+
+  if (mapType == std::string("taiwan"))
+  {
+    IN_DIR = "../inputs/";
+    OUT_DIR = "../outputs/taiwan/";
+    IN_PATH_SCWS_XDB = "taiwan/xdb/dict_cht.utf8.xdb";
+    IN_PATH_SCWS_RULE = "taiwan/xdb/fts-tc-r.tok";
+    IN_PATH_NORM_MAP = "taiwan/xdb/fts-tc-n.tok";
+    IN_PATH_AIRPORTS = "airports/taiwan_airports_raw.txt.dump";
+    IN_PATH_SCENERY = "scenery/taiwan_scenery_raw.txt.dump";
+    IN_PATH_STATIONS = "stations/taiwan_stations_raw.txt.dump";
+    OUT_PATH_AIRPORTS = "taiwan_airports.csv";
+    OUT_PATH_SCENERY = "taiwan_scenery.csv";
+    OUT_PATH_STATIONS = "taiwan_stations.csv";
+  }
+  else
+  {
+    IN_DIR = "../inputs/";
+    OUT_DIR = "../outputs/china/";
+    IN_PATH_SCWS_XDB = "china/xdb/dict.utf8.xdb";
+    IN_PATH_SCWS_RULE = "china/xdb/fts-sc-r.tok";
+    IN_PATH_NORM_MAP = "china/xdb/fts-sc-n.tok";
+    IN_PATH_AIRPORTS = "airports/china_airports_raw.txt.dump";
+    IN_PATH_SCENERY = "scenery/china_scenery_raw.txt.dump";
+    IN_PATH_STATIONS = "stations/china_stations_raw.txt.dump";
+    OUT_PATH_AIRPORTS = "china_airports.csv";
+    OUT_PATH_SCENERY = "china_scenery.csv";
+    OUT_PATH_STATIONS = "china_stations.csv";
+  }
+
+#ifdef _CONVERT_NORMALIZE_
+  file_path_norm = std::string(IN_DIR) + IN_PATH_NORM_MAP;
+  if (!CHomophoneNormalizer_Init(file_path_norm.c_str()))
+  {
+    printf("CHomophoneNormalizer_Init err:%s\n", file_path_norm.c_str());
+    iEnableHPNormalize = 0;
+  }
+  else
+  {
+    printf("CHomophoneNormalizer_Init OK\n");
+    iEnableHPNormalize = 1;
+  }
+#endif //_CONVERT_NORMALIZE_
+
+  TokenGet(std::string(IN_DIR) + IN_PATH_SCWS_XDB, std::string(IN_DIR) + IN_PATH_SCWS_RULE, std::string(IN_DIR) + IN_PATH_AIRPORTS, std::string(OUT_DIR) + OUT_PATH_AIRPORTS);
+  TokenGet(std::string(IN_DIR) + IN_PATH_SCWS_XDB, std::string(IN_DIR) + IN_PATH_SCWS_RULE, std::string(IN_DIR) + IN_PATH_SCENERY, std::string(OUT_DIR) + OUT_PATH_SCENERY);
+  TokenGet(std::string(IN_DIR) + IN_PATH_SCWS_XDB, std::string(IN_DIR) + IN_PATH_SCWS_RULE, std::string(IN_DIR) + IN_PATH_STATIONS, std::string(OUT_DIR) + OUT_PATH_STATIONS);
 
   return 0;
 }

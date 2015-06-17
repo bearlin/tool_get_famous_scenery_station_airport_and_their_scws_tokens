@@ -29,12 +29,41 @@ https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%
 [Taiwan airports]  
 https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%A9%9F%E5%A0%B4  
 
-# Build:
-```sh
-./build.sh build-data
-```
-
-# Clean:
+# Steps:
+1. Clean all previous files  
 ```sh
 ./build.sh clean
 ```
+2. Build executable  
+```sh
+./build.sh
+```
+Executable path :  
+build/scws_get_tokens  
+
+3. Build input datas  
+```sh
+./build.sh build-data
+```
+Input data path :  
+inputs/airports/china_airports_raw.txt.dump  
+inputs/airports/taiwan_airports_raw.txt.dump  
+inputs/scenery/china_scenery_raw.txt.dump  
+inputs/scenery/taiwan_scenery_raw.txt.dump  
+inputs/stations/china_stations_raw.txt.dump  
+inputs/stations/taiwan_stations_raw.txt.dump  
+
+4. Execute
+```sh
+cd build
+./scws_get_tokens taiwan
+./scws_get_tokens china
+```
+Output data path :  
+outputs/china/china_airports.csv  
+outputs/china/china_scenery.csv  
+outputs/china/china_stations.csv  
+outputs/taiwan/taiwan_airports.csv  
+outputs/taiwan/taiwan_scenery.csv  
+outputs/taiwan/taiwan_stations.csv  
+
