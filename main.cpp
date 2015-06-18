@@ -1,5 +1,7 @@
-﻿// xdb_filter.cpp : Defines the entry point for the console application.
-//
+﻿////////////////////////////////////////////////////////////////////////////////
+// This file contains the implementation to send Taiwan/China airports/scenery/stations name strings to SCWS, 
+// get output tokens in both normalized and non-normalized form, then save these results to csv files
+////////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
 #include <string>
@@ -13,6 +15,9 @@
 #include "xdb.h"
 #include "xdict.h"
 #include "scws.h"
+
+#include "TTLog.h"
+DEFINE_LOGGER(gLogCXdbFilter, "CXdbFilter")
 
 #define _CONVERT_NORMALIZE_
 
@@ -35,7 +40,7 @@ static int iEnableHPNormalize = 0;
 
 #ifdef _CONVERT_NORMALIZE_
 // Length of multibyte character from first byte of Utf8
-static const unsigned char g_mblen_table_utf8[] = 
+static const unsigned char iUTF8MultibyteLengthTable[] = 
 {
   1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
   1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
@@ -57,118 +62,117 @@ static const unsigned char g_mblen_table_utf8[] =
 
 const unsigned int KNormBufUnitSize = 0x200;
 const unsigned int KCJKBytes = 3;
-
-std::map<std::string,std::string> iMap;
-std::map<std::string,std::string>::iterator iMap_it;
+std::map<std::string,std::string> iNormalizerMap;
 
 int CHomophoneNormalizer_Init(const char* aFile)
 {
-  FILE* fd;
-  char  line[256];
-  
-  fd = fopen(aFile, "r");
-  if(NULL == fd)
+  FILE* fileStage07NormalizationMap;
+  char tempString[MAX_LINE_SIZE];
+
+  fileStage07NormalizationMap = fopen(aFile, "r");
+  if (fileStage07NormalizationMap == NULL)
   {
-    printf("Error fopen homophone map file: %s\n", aFile);
-    return 0;
+    LOG_INFO(gLogCXdbFilter, "Error fopen homophone map file: %s\n", aFile);
+    return false;
   }
 
-  int ct = 0;
-  while(fgets(line, sizeof(line), fd)) 
+  int insertCount = 0;
+  while (fgets(tempString, sizeof(tempString), fileStage07NormalizationMap) != NULL)
   {
-    strtok(line, "\r\n");
-  
-    const char *pinyin, *src, *dst;
+    strtok(tempString, "\r\n");
 
-    pinyin = strtok(line, ",");
-    src    = pinyin ? strtok(NULL, ",") : NULL;
-    dst    = src ?    strtok(NULL, ",") : NULL;
+    const char* pinyinCharacter;
+    const char* sourceCharacter;
+    const char* mappedCharacter;
 
-    if(pinyin && src && dst)
+    pinyinCharacter = strtok(tempString, ",");
+    sourceCharacter = pinyinCharacter ? strtok(NULL, ",") : NULL;
+    mappedCharacter = sourceCharacter ? strtok(NULL, ",") : NULL;
+
+    if (pinyinCharacter && sourceCharacter && mappedCharacter)
     {
-      //iMap.Set((CHomophoneMap::TUnit) src, (CHomophoneMap::TUnit) dst);
-      if (iMap.end() == iMap.find(src))
+      //iNormalizerMap.Set((CHomophoneMap::TUnit) sourceCharacter, (CHomophoneMap::TUnit) mappedCharacter);
+      if (iNormalizerMap.end() == iNormalizerMap.find(sourceCharacter))
       {
-        iMap.insert( std::pair<std::string,std::string>(src,dst) );
-        ++ct;
+        iNormalizerMap.insert(std::pair<std::string,std::string>(sourceCharacter, mappedCharacter));
+        ++insertCount;
       }
     }
-    
-    //LOG_DEBUG(gFtsChHPNormalizer, "iHomophoneMap[%s]=%s\n", src, dst);
+    //LOG_DEBUG(gFtsChHPNormalizer, "iHomophoneMap[%s]=%s\n", sourceCharacter, mappedCharacter);
   }
-  
-  fclose(fd);
 
-  printf("Read Homophone mapping into map DONE, total=%d.\n", ct);
+  fclose(fileStage07NormalizationMap);
+  LOG_INFO(gLogCXdbFilter, "Read Homophone mapping into map DONE, total=%d.\n", insertCount);
 
-  return 1;
+  return true;
 }
 
-size_t CHomophoneNormalizer_Normalize(const char* aSource, char* aOutput, size_t aLength)
+size_t CHomophoneNormalizer_Normalize(const char* aSourceString, char* aOutputString, size_t aLength)
 {
-  size_t i;
-  const unsigned char* aInput = (const unsigned char*) aSource;
+  size_t stringLength = 0;
+  size_t utf8FirstByteOffset = 0;
+  size_t returnLength = 0;
+  const unsigned char* inputString = (const unsigned char*)aSourceString;
 
-  //printf("CHomophoneNormalizer_Normalize aSource:%s aLength:%d\n", aSource, aLength);
-  
-  if((i = strlen(aSource)) + 1 > aLength)
+  //LOG_INFO(gLogCXdbFilter, "CHomophoneNormalizer_Normalize aSourceString:%s aLength:%d\n", aSourceString, aLength);
+  stringLength = strlen(aSourceString);
+  if ((stringLength + 1) > aLength)
   {
-    return i + 1; // aOutput length equals to aSource
+    returnLength = stringLength + 1; // aOutputString length equals to aSourceString
+    return returnLength;
   }
 
-  for(i = 0; aInput[i];)
+  for (utf8FirstByteOffset = 0; inputString[utf8FirstByteOffset];)
   {
-    size_t lenMB = g_mblen_table_utf8[aInput[i]];
+    size_t characterLengthInBytes = iUTF8MultibyteLengthTable[inputString[utf8FirstByteOffset]];
 
-    if(KCJKBytes != lenMB) /* not CJK */
+    if (KCJKBytes != characterLengthInBytes) /* not CJK */
     {
-      memcpy(aOutput + i, aInput + i, lenMB);
+      memcpy(aOutputString + utf8FirstByteOffset, inputString + utf8FirstByteOffset, characterLengthInBytes);
     }
     else  /* CJK */
     {
-      //if(iMap.IsContained(aInput+i)) 
-      std::string CJKStr((const char*)(aInput+i), lenMB);
-      if (iMap.end() != iMap.find(CJKStr))
+      //if (iNormalizerMap.IsContained(inputString + utf8FirstByteOffset))
+      std::string CJKStr((const char*)(inputString + utf8FirstByteOffset), characterLengthInBytes);
+      if (iNormalizerMap.end() != iNormalizerMap.find(CJKStr))
       {
-        memcpy(aOutput + i, iMap[CJKStr].data(), lenMB);
+        memcpy(aOutputString + utf8FirstByteOffset, iNormalizerMap[CJKStr].data(), characterLengthInBytes);
       }
-      else 
+      else
       {
-        memcpy(aOutput + i, aInput + i, lenMB);
+        memcpy(aOutputString + utf8FirstByteOffset, inputString + utf8FirstByteOffset, characterLengthInBytes);
       }
     }
 
-    i += lenMB;
+    utf8FirstByteOffset += characterLengthInBytes;
   }
 
-  aOutput[i] = 0;
-
-  //printf("HPNormalized result:%s\n", aOutput);
-
-  return 0;
+  aOutputString[utf8FirstByteOffset] = 0;
+  //LOG_INFO(gLogCXdbFilter, "HPNormalized result:%s\n", aOutputString);
+  returnLength = 0;
+  return returnLength;
 }
 
 void CFtsTokenizerExtChinese_ReserveStringCapacity(std::string& aString, size_t aSize, size_t aUnitSize)
 {
-  const size_t allocSize = (aSize + aUnitSize - 1) & ~(aUnitSize - 1); // pack with aUnitSize
-  aString.resize(allocSize);
+  const size_t allocateSize = (aSize + aUnitSize - 1) & ~(aUnitSize - 1); // pack with aUnitSize
+  aString.resize(allocateSize);
 }
 #endif //_CONVERT_NORMALIZE_
 
 bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, std::string outputPath)
 {
-  int line_no=0;
-  char* pline=0;
+  char tempToken[MAX_LINE_SIZE];
+  scws_t scwsHandle;
+  scws_res_t scwsResults, scwsCurrentResult;
+  int status;
 
-  char szTmp[MAX_LINE_SIZE];
-  scws_t s;
-  scws_res_t res, cur;
-  int ret;
-  char text[MAX_LINE_SIZE];
-  char line_text[MAX_LINE_SIZE];
-  int text_size;
+  char lineTextToScws[MAX_LINE_SIZE];
+  char lineText[MAX_LINE_SIZE];
+  int textSize;
+  int lineNumber = 0;
 
-  FILE* fp_input;
+  FILE* fileRaw;
   std::ofstream ofs;
 
 #ifdef _CONVERT_NORMALIZE_
@@ -179,23 +183,23 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
   iNormText.resize(32);
 #endif //_CONVERT_NORMALIZE_
 
-  if (!(s = scws_new()))
+  if (!(scwsHandle = scws_new()))
   {
     printf("ERROR: cann't init the scws!\n");
     return -1;
   }
-  scws_set_charset(s, "utf8");
-  ret = scws_set_dict(s, xdbPath.c_str(), SCWS_XDICT_XDB);
-  scws_set_rule(s, rulePath.c_str() );
+  scws_set_charset(scwsHandle, "utf8");
+  status = scws_set_dict(scwsHandle, xdbPath.c_str(), SCWS_XDICT_XDB);
+  scws_set_rule(scwsHandle, rulePath.c_str() );
 
   printf("input src:%s\n", inputPath.c_str());
-  fp_input = fopen(inputPath.c_str(), "r");
-  if (NULL == fp_input)
+  fileRaw = fopen(inputPath.c_str(), "r");
+  if (NULL == fileRaw)
   {
-    printf("fp_input err:%s\n", inputPath.c_str());
+    printf("fileRaw err:%s\n", inputPath.c_str());
     return -1;
   }
-  printf("fp_input:%s\n", inputPath.c_str());
+  printf("fileRaw:%s\n", inputPath.c_str());
   
   ofs.open(outputPath.c_str(), std::ofstream::out);
 
@@ -203,42 +207,48 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
   std::cout << "InputString, Expect_Non_Normalized, Expect_Normalized\n";
   ofs << "InputString, Expect_Non_Normalized, Expect_Normalized\n";
 
-  while( NULL != fgets(line_text, MAX_LINE_SIZE, fp_input) ) 
+  while (fgets(lineText, MAX_LINE_SIZE, fileRaw) != NULL)
   {
-    line_no++;
-    if (0 == line_no%10)
-      printf("Parsing Line(%d)....\n", line_no );
-    
-    if( 0 == strlen(line_text) )
-      continue;
+    lineNumber++;
+    if ((lineNumber % 10) == 0)
+    {
+      LOG_INFO(gLogCXdbFilter, "Parsing Line(%d)....\n", lineNumber);
+    }
 
-    text_size = 0;
-    memset(text,0, sizeof(text) );
+    if (strlen(lineText) == 0)
+    {
+      continue;
+    }
+
+    textSize = 0;
+    memset(lineTextToScws, 0, sizeof(lineTextToScws));
 
     // Copy input string to new buffer and strip newline characters
-    pline = line_text;
-    while( ('\r' != *pline) && ( '\n' != *pline) && ( 0 != *pline) )
-      text[text_size++] = *(pline++);
+    char* ptrLine = lineText;
+    while (('\r' != *ptrLine) && ('\n' != *ptrLine) && (0 != *ptrLine))
+    {
+      lineTextToScws[textSize++] = *(ptrLine++);
+    }
 
     // Clear normailzed tokens buffer
     normalizedTokens.clear();
 
-    std::cout << text << ",";
-    ofs << text << ",";
-    scws_send_text(s, text, text_size);
-    while (res = cur = scws_get_result(s))
+    std::cout << lineTextToScws << ",";
+    ofs << lineTextToScws << ",";
+    scws_send_text(scwsHandle, lineTextToScws, textSize);
+    while (scwsResults = scwsCurrentResult = scws_get_result(scwsHandle))
     {
-      while (cur != NULL)
+      while (scwsCurrentResult != NULL)
       {
-        memset(szTmp, 0, sizeof(szTmp));
-        memcpy(szTmp, &text[cur->off], cur->len);
+        memset(tempToken, 0, sizeof(tempToken));
+        memcpy(tempToken, &lineTextToScws[scwsCurrentResult->off], scwsCurrentResult->len);
 
-        std::cout << szTmp << " ";
-        ofs << szTmp << " ";
+        std::cout << tempToken << " ";
+        ofs << tempToken << " ";
 
         // Convert this token to normalized form
       #ifdef _CONVERT_NORMALIZE_
-        pKey = szTmp;
+        pKey = tempToken;
         if(iEnableHPNormalize)
         {
           size_t res_len = CHomophoneNormalizer_Normalize(pKey, &iNormText[0], iNormText.capacity());
@@ -268,10 +278,10 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
         }
       #endif //_CONVERT_NORMALIZE_
 
-        cur = cur->next;
+        scwsCurrentResult = scwsCurrentResult->next;
       }
 
-      scws_free_result(res);
+      scws_free_result(scwsResults);
     }
 
     // Append normalizedTokens
@@ -285,23 +295,23 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
     ofs << '\n';
     std::cout << "\n";
   }
-  scws_free(s);
-  printf("Total Parsing Line(%d)....\n", line_no );
+  scws_free(scwsHandle);
+  printf("Total Parsing Line(%d)....\n", lineNumber);
 
   ofs.close();
-  fclose(fp_input);
+  fclose(fileRaw);
 }
 
 
 int main(int argc, char* argv[])
 {
-  std::string file_path_norm;
+  std::string iFilePath;
   std::string mapType = "taiwan";
 
   if (argc < 2)
   {
     std::cout << "Usage : ./scws_get_tokens [taiwan|china]" << std::endl;
-    return 0;
+    return EXIT_FAILURE;
   }
   else
   {
@@ -311,7 +321,7 @@ int main(int argc, char* argv[])
   if ( (mapType != std::string("taiwan")) && (mapType != std::string("china")) )
   {
     std::cout << "Unknow mapType: " << mapType << std::endl;
-    return 0;
+    return EXIT_FAILURE;
   }
   std::cout << "mapType: " << mapType << std::endl;
 
@@ -344,15 +354,15 @@ int main(int argc, char* argv[])
   }
 
 #ifdef _CONVERT_NORMALIZE_
-  file_path_norm = std::string(IN_DIR) + IN_PATH_NORM_MAP;
-  if (!CHomophoneNormalizer_Init(file_path_norm.c_str()))
+  iFilePath = std::string(IN_DIR) + IN_PATH_NORM_MAP;
+  if (!CHomophoneNormalizer_Init(iFilePath.c_str()))
   {
-    printf("CHomophoneNormalizer_Init err:%s\n", file_path_norm.c_str());
+    LOG_INFO(gLogCXdbFilter, "CHomophoneNormalizer_Init err:%s\n", iFilePath.c_str());
     iEnableHPNormalize = 0;
   }
   else
   {
-    printf("CHomophoneNormalizer_Init OK\n");
+    LOG_INFO(gLogCXdbFilter, "CHomophoneNormalizer_Init OK\n");
     iEnableHPNormalize = 1;
   }
 #endif //_CONVERT_NORMALIZE_
@@ -361,6 +371,6 @@ int main(int argc, char* argv[])
   TokenGet(std::string(IN_DIR) + IN_PATH_SCWS_XDB, std::string(IN_DIR) + IN_PATH_SCWS_RULE, std::string(IN_DIR) + IN_PATH_SCENERY, std::string(OUT_DIR) + OUT_PATH_SCENERY);
   TokenGet(std::string(IN_DIR) + IN_PATH_SCWS_XDB, std::string(IN_DIR) + IN_PATH_SCWS_RULE, std::string(IN_DIR) + IN_PATH_STATIONS, std::string(OUT_DIR) + OUT_PATH_STATIONS);
 
-  return 0;
+  return EXIT_SUCCESS;
 }
 
