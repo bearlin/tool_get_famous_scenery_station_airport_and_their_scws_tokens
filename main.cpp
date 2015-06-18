@@ -17,7 +17,7 @@
 #include "scws.h"
 
 #include "TTLog.h"
-DEFINE_LOGGER(gLogCXdbFilter, "CXdbFilter")
+DEFINE_LOGGER(gLogGetTestTokens, "GetTestTokens")
 
 #define _CONVERT_NORMALIZE_
 
@@ -34,8 +34,9 @@ std::string OUT_PATH_SCENERY = "";
 std::string OUT_PATH_STATIONS = "";
 
 #define MAX_LINE_SIZE (1024)
+#define MAX_TOKEN_SIZE (300)
 
-char tmp_buf1[MAX_LINE_SIZE];
+char iBuffer[MAX_LINE_SIZE];
 static int iEnableHPNormalize = 0;
 
 #ifdef _CONVERT_NORMALIZE_
@@ -72,7 +73,7 @@ int CHomophoneNormalizer_Init(const char* aFile)
   fileStage07NormalizationMap = fopen(aFile, "r");
   if (fileStage07NormalizationMap == NULL)
   {
-    LOG_INFO(gLogCXdbFilter, "Error fopen homophone map file: %s\n", aFile);
+    LOG_INFO(gLogGetTestTokens, "Error fopen homophone map file: %s\n", aFile);
     return false;
   }
 
@@ -102,7 +103,7 @@ int CHomophoneNormalizer_Init(const char* aFile)
   }
 
   fclose(fileStage07NormalizationMap);
-  LOG_INFO(gLogCXdbFilter, "Read Homophone mapping into map DONE, total=%d.\n", insertCount);
+  LOG_INFO(gLogGetTestTokens, "Read Homophone mapping into map DONE, total=%d.\n", insertCount);
 
   return true;
 }
@@ -114,7 +115,7 @@ size_t CHomophoneNormalizer_Normalize(const char* aSourceString, char* aOutputSt
   size_t returnLength = 0;
   const unsigned char* inputString = (const unsigned char*)aSourceString;
 
-  //LOG_INFO(gLogCXdbFilter, "CHomophoneNormalizer_Normalize aSourceString:%s aLength:%d\n", aSourceString, aLength);
+  //LOG_INFO(gLogGetTestTokens, "CHomophoneNormalizer_Normalize aSourceString:%s aLength:%d\n", aSourceString, aLength);
   stringLength = strlen(aSourceString);
   if ((stringLength + 1) > aLength)
   {
@@ -148,7 +149,7 @@ size_t CHomophoneNormalizer_Normalize(const char* aSourceString, char* aOutputSt
   }
 
   aOutputString[utf8FirstByteOffset] = 0;
-  //LOG_INFO(gLogCXdbFilter, "HPNormalized result:%s\n", aOutputString);
+  //LOG_INFO(gLogGetTestTokens, "HPNormalized result:%s\n", aOutputString);
   returnLength = 0;
   return returnLength;
 }
@@ -176,35 +177,35 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
   std::ofstream ofs;
 
 #ifdef _CONVERT_NORMALIZE_
-  char* pKey = NULL;
+  char* tokenBeginningPointer = NULL;
   std::string normalizedTokens;
-  std::string iNormText;
+  std::string normalizedText;
 
-  iNormText.resize(32);
+  normalizedText.resize(MAX_TOKEN_SIZE);
 #endif //_CONVERT_NORMALIZE_
 
   if (!(scwsHandle = scws_new()))
   {
-    printf("ERROR: cann't init the scws!\n");
-    return -1;
+    LOG_INFO(gLogGetTestTokens, "ERROR: cann't init the scws!\n");
+    return false;
   }
   scws_set_charset(scwsHandle, "utf8");
   status = scws_set_dict(scwsHandle, xdbPath.c_str(), SCWS_XDICT_XDB);
   scws_set_rule(scwsHandle, rulePath.c_str() );
 
-  printf("input src:%s\n", inputPath.c_str());
+  LOG_INFO(gLogGetTestTokens, "input src:%s\n", inputPath.c_str());
   fileRaw = fopen(inputPath.c_str(), "r");
   if (NULL == fileRaw)
   {
-    printf("fileRaw err:%s\n", inputPath.c_str());
-    return -1;
+    LOG_INFO(gLogGetTestTokens, "fileRaw err:%s\n", inputPath.c_str());
+    return false;
   }
-  printf("fileRaw:%s\n", inputPath.c_str());
-  
+  LOG_INFO(gLogGetTestTokens, "fileRaw:%s\n", inputPath.c_str());
+
   ofs.open(outputPath.c_str(), std::ofstream::out);
 
   // Write cvs header
-  std::cout << "InputString, Expect_Non_Normalized, Expect_Normalized\n";
+  LOG_INFO(gLogGetTestTokens, "InputString, Expect_Non_Normalized, Expect_Normalized\n");
   ofs << "InputString, Expect_Non_Normalized, Expect_Normalized\n";
 
   while (fgets(lineText, MAX_LINE_SIZE, fileRaw) != NULL)
@@ -212,7 +213,7 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
     lineNumber++;
     if ((lineNumber % 10) == 0)
     {
-      LOG_INFO(gLogCXdbFilter, "Parsing Line(%d)....\n", lineNumber);
+      LOG_INFO(gLogGetTestTokens, "Parsing Line(%d)....\n", lineNumber);
     }
 
     if (strlen(lineText) == 0)
@@ -223,7 +224,6 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
     textSize = 0;
     memset(lineTextToScws, 0, sizeof(lineTextToScws));
 
-    // Copy input string to new buffer and strip newline characters
     char* ptrLine = lineText;
     while (('\r' != *ptrLine) && ('\n' != *ptrLine) && (0 != *ptrLine))
     {
@@ -233,48 +233,60 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
     // Clear normailzed tokens buffer
     normalizedTokens.clear();
 
-    std::cout << lineTextToScws << ",";
+    LOG_INFO(gLogGetTestTokens, "%s,", lineTextToScws);
     ofs << lineTextToScws << ",";
+
+    //LOG_INFO(gLogGetTestTokens, "%s\n", lineTextToScws);
     scws_send_text(scwsHandle, lineTextToScws, textSize);
-    while (scwsResults = scwsCurrentResult = scws_get_result(scwsHandle))
+    while ((scwsResults = (scwsCurrentResult = scws_get_result(scwsHandle))))
     {
       while (scwsCurrentResult != NULL)
       {
         memset(tempToken, 0, sizeof(tempToken));
         memcpy(tempToken, &lineTextToScws[scwsCurrentResult->off], scwsCurrentResult->len);
 
-        std::cout << tempToken << " ";
+        printf("%s ", tempToken);
         ofs << tempToken << " ";
 
         // Convert this token to normalized form
       #ifdef _CONVERT_NORMALIZE_
-        pKey = tempToken;
-        if(iEnableHPNormalize)
+        tokenBeginningPointer = tempToken;
+        if (tokenBeginningPointer != NULL)
         {
-          size_t res_len = CHomophoneNormalizer_Normalize(pKey, &iNormText[0], iNormText.capacity());
-          
-          if(res_len != 0) // Buffer size is too small
+          //LOG_INFO(gLogGetTestTokens, "Converting [%s] of %s", tokenBeginningPointer, iBuffer);
+
+          // Normalizer
+          //normalizedText.resize(MAX_TOKEN_SIZE);
+          if (iEnableHPNormalize)
           {
-            //printf("@@@ Buffer size is too small, pKey length=%d,  iNormText.size()=%d,  iNormText.capacity()=%d\n", res_len, iNormText.size(), iNormText.capacity());
-            CFtsTokenizerExtChinese_ReserveStringCapacity(iNormText, res_len, KNormBufUnitSize);
+            size_t res_len = CHomophoneNormalizer_Normalize(tokenBeginningPointer, &normalizedText[0], normalizedText.capacity());
 
-            if((res_len = CHomophoneNormalizer_Normalize(pKey, &iNormText[0], iNormText.capacity())))
+            if (res_len != 0) // Buffer size is too small
             {
-              printf("Normalize error=%ld\n", res_len);
-              return 0;
+              //LOG_INFO(gLogGetTestTokens, "@@@ Buffer size is too small, tokenBeginningPointer length=%d,  normalizedText.size()=%d,  normalizedText.capacity()=%d\n", res_len, normalizedText.size(), normalizedText.capacity());
+              CFtsTokenizerExtChinese_ReserveStringCapacity(normalizedText, res_len, KNormBufUnitSize);
+
+              if((res_len = CHomophoneNormalizer_Normalize(tokenBeginningPointer, &normalizedText[0], normalizedText.capacity())))
+              {
+                LOG_INFO(gLogGetTestTokens, "Normalize error=%ld\n", res_len);
+                return false;
+              }
             }
+            //LOG_INFO(gLogGetTestTokens, "normalizedText.c_str():%s\n", normalizedText.c_str());
+            //LOG_INFO(gLogGetTestTokens, "strlen(normalizedText.c_str()):%d\n", strlen(normalizedText.c_str()));
+            memset(iBuffer, 0, sizeof(iBuffer));
+            //LOG_INFO(gLogGetTestTokens, "AAA Un-Normali aString:%s", iBuffer);
+            strncpy(iBuffer, normalizedText.c_str(), strlen(normalizedText.c_str()));
+            //LOG_INFO(gLogGetTestTokens, "BBB Normalized aString:%s", iBuffer);
+
+            // Save this normalized token
+            normalizedTokens += iBuffer;
+            normalizedTokens += " ";
           }
-          //printf("iNormText.c_str():%s\n", iNormText.c_str());
-          //printf("strlen(iNormText.c_str()):%d\n", strlen(iNormText.c_str()));
-
-          memset(tmp_buf1, 0, sizeof(tmp_buf1));
-          //printf("AAA Un-Normali str:%s", tmp_buf1);
-          strncpy(tmp_buf1, iNormText.c_str(), strlen(iNormText.c_str()));
-          //printf("BBB Normalized str:%s", tmp_buf1);
-
-          // Save this normalized token
-          normalizedTokens += tmp_buf1;
-          normalizedTokens += " ";
+        }
+        else
+        {
+          LOG_INFO(gLogGetTestTokens, "Failed converting:%s", iBuffer);
         }
       #endif //_CONVERT_NORMALIZE_
 
@@ -285,18 +297,18 @@ bool TokenGet(std::string xdbPath, std::string rulePath, std::string inputPath, 
     }
 
     // Append normalizedTokens
-    std::cout << ",";
+    printf(",");
     ofs << ",";
 
+    printf("%s", normalizedTokens.c_str());
     ofs << normalizedTokens;
-    std::cout << normalizedTokens;
 
     // Next line.
     ofs << '\n';
-    std::cout << "\n";
+    printf("\n");
   }
   scws_free(scwsHandle);
-  printf("Total Parsing Line(%d)....\n", lineNumber);
+  LOG_INFO(gLogGetTestTokens, "Total Parsing Line(%d)....\n", lineNumber);
 
   ofs.close();
   fclose(fileRaw);
@@ -310,7 +322,7 @@ int main(int argc, char* argv[])
 
   if (argc < 2)
   {
-    std::cout << "Usage : ./scws_get_tokens [taiwan|china]" << std::endl;
+    LOG_INFO(gLogGetTestTokens, "Usage : ./scws_get_tokens [taiwan|china]\n");
     return EXIT_FAILURE;
   }
   else
@@ -320,10 +332,10 @@ int main(int argc, char* argv[])
 
   if ( (mapType != std::string("taiwan")) && (mapType != std::string("china")) )
   {
-    std::cout << "Unknow mapType: " << mapType << std::endl;
+    LOG_INFO(gLogGetTestTokens, "Unknow mapType: %s\n", mapType.c_str());
     return EXIT_FAILURE;
   }
-  std::cout << "mapType: " << mapType << std::endl;
+  LOG_INFO(gLogGetTestTokens, "mapType: %s\n", mapType.c_str());
 
   IN_DIR = "../inputs/";
   if (mapType == std::string("taiwan"))
@@ -357,12 +369,12 @@ int main(int argc, char* argv[])
   iFilePath = std::string(IN_DIR) + IN_PATH_NORM_MAP;
   if (!CHomophoneNormalizer_Init(iFilePath.c_str()))
   {
-    LOG_INFO(gLogCXdbFilter, "CHomophoneNormalizer_Init err:%s\n", iFilePath.c_str());
+    LOG_INFO(gLogGetTestTokens, "CHomophoneNormalizer_Init err:%s\n", iFilePath.c_str());
     iEnableHPNormalize = 0;
   }
   else
   {
-    LOG_INFO(gLogCXdbFilter, "CHomophoneNormalizer_Init OK\n");
+    LOG_INFO(gLogGetTestTokens, "CHomophoneNormalizer_Init OK\n");
     iEnableHPNormalize = 1;
   }
 #endif //_CONVERT_NORMALIZE_
