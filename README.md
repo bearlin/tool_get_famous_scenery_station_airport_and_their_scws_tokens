@@ -1,7 +1,7 @@
-# tool_get_famous_scenery_station_airport
-Get famous scenery/stations/airports list of China and Taiwan
+# tool_get_famous_scenery_station_airport_and_their_scws_tokens
+Get famous scenery/stations/airports list of China and Taiwan, then input these names to libscws to get tokens
 
-# We can extract 100 most popular POIs/Scenery from below website for both China/Taiwan:
+# I manually collected 100 most popular Scenery/Stations/Airport from below website for both China/Taiwan, then  put them to several raw data files:
 [China POIs]  
 100 most popular scenery:  
 http://chuansong.me/n/1125107  
@@ -28,8 +28,41 @@ https://zh.wikipedia.org/zh-cn/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%
   
 [Taiwan airports]  
 https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%A9%9F%E5%A0%B4  
+ 
+[Raw data files]
+```sh
+./inputs/airports/taiwan_airports_raw.txt
+./inputs/airports/china_airports_raw.txt
+./inputs/scenery/china_scenery_raw.txt
+./inputs/scenery/taiwan_scenery_raw.txt
+./inputs/stations/china_stations_raw.txt
+./inputs/stations/taiwan_stations_raw.txt
+```
 
-# Steps:
+# Get Scenery/Station/Airport names from above raw data files
+I create some python scripts to extract Scenery/Station/Airport names from the raw data files :  
+```sh
+./inputs/airports/extract_taiwan_airports_raw.py
+./inputs/airports/extract_china_airports_raw.py
+./inputs/scenery/extract_taiwan_scenery_raw.py
+./inputs/scenery/extract_china_scenery_raw.py
+./inputs/stations/extract_taiwan_station_raw.py
+./inputs/stations/extract_china_station_raw.py
+```
+You can run gen_data.sh directly to get the outputs :  
+```sh
+$ ./gen_data.sh
+$ find . -name "*_raw.txt.dump" 
+./inputs/airports/taiwan_airports_raw.txt.dump
+./inputs/airports/china_airports_raw.txt.dump
+./inputs/scenery/taiwan_scenery_raw.txt.dump
+./inputs/scenery/china_scenery_raw.txt.dump
+./inputs/stations/china_stations_raw.txt.dump
+./inputs/stations/taiwan_stations_raw.txt.dump
+```
+
+# After get Scenery/Station/Airport names, I would like to input these names to libscws to get tokens:
+[SCWS](https://github.com/hightman/scws) is the tokenizer for Chinese, below are steps to input above names to libscws and get the output tokens :  
 1. Clean all previous files  
 ```sh
 ./build.sh clean
@@ -41,7 +74,7 @@ https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%A9%9F%E5%A0%B4
 Executable path :  
 build/scws_get_tokens  
 
-3. Build input datas  
+3. Build input datas (will invoke gen_data.sh)  
 ```sh
 ./build.sh build-data
 ```
