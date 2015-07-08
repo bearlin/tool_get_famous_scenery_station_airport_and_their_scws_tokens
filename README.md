@@ -1,7 +1,8 @@
 # tool_get_famous_scenery_station_airport_and_their_scws_tokens
 Get famous scenery/stations/airports list of China and Taiwan, then input these names to libscws to get tokens
 
-# I manually collected 100 most popular Scenery/Stations/Airport from below website for both China/Taiwan, then  put them to several raw data files:
+# The input raw datas
+I manually collected 100 most popular Scenery/Stations/Airport from below website for both China/Taiwan, then  put them to several raw data files:  
 [China POIs]  
 100 most popular scenery:  
 http://chuansong.me/n/1125107  
@@ -39,7 +40,7 @@ https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%A9%9F%E5%A0%B4
 ./inputs/stations/taiwan_stations_raw.txt
 ```
 
-# Get Scenery/Station/Airport names from above raw data files
+# Get names
 I create some python scripts to extract Scenery/Station/Airport names from the raw data files :  
 ```sh
 ./inputs/airports/extract_taiwan_airports_raw.py
@@ -61,8 +62,8 @@ $ find . -name "*_raw.txt.dump"
 ./inputs/stations/taiwan_stations_raw.txt.dump
 ```
 
-# After get Scenery/Station/Airport names, I would like to input these names to libscws to get tokens:
-[SCWS](https://github.com/hightman/scws) is the tokenizer for Chinese, below are steps to input above names to libscws and get the output tokens :  
+# Get tokens
+After get Scenery/Station/Airport names, I would like to input these names to [SCWS](https://github.com/hightman/scws) to get their tokens, below are steps :  
 1. Clean all previous files  
 ```sh
 ./build.sh clean
